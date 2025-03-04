@@ -28,12 +28,12 @@
 
         <body name="finger" pos="0 0 0">
             <geom name="finger1" type="capsule" size="0.06" fromto="0 0 0  -.25 0 0" rgba=".5 .1 .1 1"/>
-            <site name="sPIPL" pos="-.2 0 0" size="0.12"/>
+            <site name="sPIPL" pos="-.1 0 0" size="0.12"/>
 
             <body pos="0 0 0">
                 <geom name="finger2" type="capsule" size="0.05" fromto="0 0 0  .25 0 0" rgba=".5 .1 .1 1"/>
                 <joint name="PIP" pos="0 0 0" stiffness="0" damping="0"/>
-                <site name="sPIPR" pos=".2 0 0" size="0.12"/>
+                <site name="sPIPR" pos=".1 0 0" size="0.12"/>
                 
                 <body pos=".25 0 0">
                     <geom name="finger3" type="capsule" size="0.04" fromto="0 0 0  .25 0 0" rgba=".5 .1 .1 1"/>
@@ -43,11 +43,11 @@
 
         <body name="orthosis" pos="0 0 -.1">
             <geom name="beamB" type="capsule" size="0.04" fromto="0 0 0  -.42 0 0" />
-            <site name="hBAL" pos="-.2 0 0" size="0.06"/>
+            <site name="hBAL" pos="-.1 0 0" size="0.06"/>
             
             <body name ="Bnext" pos="0 0 0">
                 <joint name="hingeBA" type="hinge" pos="0 0 0" axis="0 0 1"/>        
-                <site name="hBAR" pos=".2 0 0" size="0.06"/>
+                <site name="hBAR" pos=".1 0 0" size="0.06"/>
                 <geom name="beamA" type="capsule" size="0.04" fromto="0 0 0  0.5 0 0" />
                 
                 <body name ="Anext" pos="0.5 0 0">
@@ -79,7 +79,7 @@
     the force behaves like a regular spring, with the rest-point corresponding to the nearest springlength value.  -->
     <!-- limited="true" range="0 0.95" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-100 -0"  -->
     <tendon>
-        <spatial name="bendingTendon" springlength="0.95" width="0.01">
+        <spatial name="bendingTendon" limited="true" range="0.5314167955265112 2" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-1000 -10">
             <site site="hDL"/>
             <site site="hAL"/>
         </spatial>
@@ -87,7 +87,7 @@
         <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
         <!-- solreflimit [-stiffness -damping] damping should be 0-->
         <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
-        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
+        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
             <site site="hDL" />
             <site site="hAL" />
         </spatial>

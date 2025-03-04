@@ -10,13 +10,23 @@ vals = {
     "tendonThickness": 0.8,
     "hingeLength": 0,
     "hingeThickness": 0.8,
-    "jointStiffness" : 100,
+    "jointStiffness" : 20,
     "jointDamping" : 10,
     "tendonExtendStiffness" : 10000,
-    "tendonExtendDamping" : 10,
+    "tendonExtendDamping" : 100,
     "tendonBendStiffness" : 100,
-    "tendonBendDamping" : 10,
+    "tendonBendDamping" : 100,
 }
+
+# some manual tuning tips:
+# jointStiffness -> 50, no bistable
+# tendonExtendStiffness -> 1000, no bistable
+# "jointStiffness" : 20,
+# "jointDamping" : 10,
+# "tendonExtendStiffness" : 10000,
+# "tendonExtendDamping" : 100,
+# "tendonBendStiffness" : 100,
+# "tendonBendDamping" : 100,
 
 def vals_to_parameters(vals):
     # Initialize parameters using provided vals (or defaults)
@@ -79,7 +89,7 @@ def scale_parameters_to_model_size(scale_factor = 100.0):
 
     # Add material properties
     scaled_parameters["jointStiffness"] = vals.get("jointStiffness", 100)
-    scaled_parameters["jointDamping"] = scaled_parameters["jointStiffness"] / 10.0 # vals.get("jointDamping", 0.1)
+    scaled_parameters["jointDamping"] = vals.get("jointDamping", 0.1)
     scaled_parameters["tendonExtendStiffness"] = vals.get("tendonExtendStiffness", 100)
     scaled_parameters["tendonBendStiffness"] = vals.get("tendonBendStiffness", 10)
     scaled_parameters["tendonExtendDamping"] = vals.get("tendonExtendDamping", 10)
@@ -160,11 +170,13 @@ def modify_model(xml_file, parameters):
             tendon.set("solreflimit", new_solreflimit)
             new_range = f"0 {parameters['tendonL']}"
             tendon.set("range", new_range)
-            tendon.set("springlength", new_range)
+            # tendon.set("springlength", new_range)
         if tendon.get("name") == "bendingTendon": 
-            tendon.set("stiffness", str(parameters["tendonBendStiffness"]))
-            tendon.set("damping", str(parameters["tendonBendDamping"]))
-            tendon.set("springlength", str(parameters["tendonL"]))
+            new_solreflimit = f"-{parameters['tendonBendStiffness']} -{parameters['tendonBendDamping']}"
+            tendon.set("solreflimit", new_solreflimit)
+            new_range = f"{parameters['tendonL']} {parameters['tendonL']*2}"
+            tendon.set("range", new_range)
+            # tendon.set("springlength", new_range)
 
     # Save the modified XML file
     modified_xml_file = "modified_model.xml"

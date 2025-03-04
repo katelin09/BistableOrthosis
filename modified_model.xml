@@ -10,7 +10,7 @@
     </visual>
 
     <default>
-        <joint type="hinge" pos="0 0 0" axis="0 0 1" stiffness="100" damping="10.0" />
+        <joint type="hinge" pos="0 0 0" axis="0 0 1" stiffness="20" damping="10" />
         <site size="0.06" rgba="1 0 0 .2" />
         <geom type="capsule" size="0.01" rgba=".1 .1 .1 1" />
         <tendon width="0.01" rgba="0 1 1 1" />
@@ -28,12 +28,12 @@
 
         <body name="finger" pos="0 0 0">
             <geom name="finger1" type="capsule" size="0.06" fromto="0 0 0  -.25 0 0" rgba=".5 .1 .1 1" />
-            <site name="sPIPL" pos="-.2 0 0" size="0.12" />
+            <site name="sPIPL" pos="-.1 0 0" size="0.12" />
 
             <body pos="0 0 0">
                 <geom name="finger2" type="capsule" size="0.05" fromto="0 0 0  .25 0 0" rgba=".5 .1 .1 1" />
                 <joint name="PIP" pos="0 0 0" stiffness="0" damping="0" />
-                <site name="sPIPR" pos=".2 0 0" size="0.12" />
+                <site name="sPIPR" pos=".1 0 0" size="0.12" />
                 
                 <body pos=".25 0 0">
                     <geom name="finger3" type="capsule" size="0.04" fromto="0 0 0  .25 0 0" rgba=".5 .1 .1 1" />
@@ -43,15 +43,15 @@
 
         <body name="orthosis" pos="0 0 -.1">
             <geom name="beamB" type="capsule" size="0.04" fromto="0.0 0.0 0.0 -0.25 -3.061616997868383e-17 0.0" />
-            <site name="hBAL" pos="-.2 0 0" size="0.06" />
+            <site name="hBAL" pos="-.1 0 0" size="0.06" />
             
             <body name="Bnext" pos="0 0 0">
-                <joint name="hingeBA" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="100" damping="10.0" />        
-                <site name="hBAR" pos=".2 0 0" size="0.06" />
+                <joint name="hingeBA" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="20" damping="10" />        
+                <site name="hBAR" pos=".1 0 0" size="0.06" />
                 <geom name="beamA" type="capsule" size="0.04" fromto="0.0 0.0 0.0 0.25 0.0 0.0" />
                 
                 <body name="Anext" pos="0.25 0.0 0.0">
-                    <joint name="hingeAL" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="100" damping="10.0" />      
+                    <joint name="hingeAL" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="20" damping="10" />      
                     <geom name="smallBodyAL" type="sphere" size="0.04" pos="0 0 0" />
                     <site name="hAL" pos="0 0 0" size="0.06" />
                 </body>     
@@ -59,7 +59,7 @@
             
             <geom name="beamD" type="capsule" size="0.04" fromto="-0.25 -3.061616997868383e-17 0.0 -0.2598076211353316 -0.15000000000000002 0.0" />
             <body name="Dnext" pos="-0.2598076211353316 -0.15000000000000002 0.0">
-                <joint name="hingeDL" type="hinge" pos="0 0 0" axis="0 0 -1" stiffness="100" damping="10.0" />
+                <joint name="hingeDL" type="hinge" pos="0 0 0" axis="0 0 -1" stiffness="20" damping="10" />
                 <geom name="smallBodyDL" type="sphere" size="0.04" pos="0 0 0" />
                 <site name="hDL" pos="0 0 0" size="0.06" />
             </body> 
@@ -75,7 +75,7 @@
     
     
     <tendon>
-        <spatial name="bendingTendon" springlength="0.5314167955265112" width="0.01" stiffness="100" damping="10">
+        <spatial name="bendingTendon" limited="true" range="0.5314167955265112 1.0628335910530224" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-100 -100">
             <site site="hDL" />
             <site site="hAL" />
         </spatial>
@@ -83,7 +83,7 @@
         
         
         
-        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -10" springlength="0 0.5314167955265112">    
+        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -100">    
             <site site="hDL" />
             <site site="hAL" />
         </spatial>

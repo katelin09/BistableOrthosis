@@ -20,6 +20,7 @@ force_sensor_id = model.sensor("finger_force").id
 torque_sensor_id = model.sensor("finger_torque").id
 tendon_sensor_id = model.sensor("tendon_force").id
 beamA_id = model.body("Bnext").id
+# finger_id = model.body("D2P").id
 
 #  get acturator control range
 actuator_id = model.actuator("finger_bend").id
@@ -50,14 +51,19 @@ def run_simulation_by_pos(model, data, target_angle, angle_step):
     frames = []
     mujoco.mj_resetData(model, data)
     for current_angle in np.arange(0, target_angle, angle_step): 
-        # Set the angle of the PIP joint
-        data.qpos[pip_id] = current_angle  
-        
+        # Set the angle of the PIP joint, here data.ctrl = 0
+        for _ in range(20):
+            data.qpos[pip_id] = current_angle
+            # data.qpos[hingeBA_id] = current_angle
+            data.qvel[pip_id] = 0
+            mujoco.mj_kinematics(model, data) #update the kinematics
         mujoco.mj_step(model, data)
+        # print(data.qpos[pip_id], current_angle, data.qpos[hingeBA_id])
 
-        force = data.sensordata[1] #get y-axis force from sensor
-        torque = data.sensordata[5] #get torque from sensor
-        potential_energy.append(data.energy[1]) #get potential energy
+        # force = data.sensordata[1] #get y-axis force from sensor
+        force = data.sensordata[1]
+        torque = -data.sensordata[5] #get torque from sensor
+        potential_energy.append(data.energy[1]) #get potential energy: position-dependent energy
         
         # TEST: 
         # data.qfrc_actuator, always [0,0,0,0] (applied generalized force)
@@ -96,9 +102,9 @@ def run_simulation_by_actuator(model, data, target_angle, control_step = 0.001):
     frames = []
     mujoco.mj_resetData(model, data)
     current_angle = 0
-    data.ctrl = 0  
     while current_angle < target_angle and data.ctrl < actuator_range[1]: 
-        # Set the angle of the PIP joint
+        # actuator control
+        data.ctrl[actuator_id] = data.ctrl[actuator_id] + control_step
         mujoco.mj_step(model, data)
 
         # mj_step computes the quantities 
@@ -109,6 +115,7 @@ def run_simulation_by_actuator(model, data, target_angle, control_step = 0.001):
         # The computed force arrays cfrc_int and cfrc_ext currently suffer from a know bug, 
         # they do not take into account the effect of spatial tendons
         # force = data.sensordata[1] #get y-axis force from sensor
+        # force = -data.sensordata[0] #get x-axis force from sensor -> tendon force? curve is correct but this is the force along the beamA
         force = data.sensordata[1]
         torque = data.sensordata[5] #get torque from sensor
         potential_energy.append(data.energy[1]) #get potential energy
@@ -122,7 +129,7 @@ def run_simulation_by_actuator(model, data, target_angle, control_step = 0.001):
         renderer.update_scene(data, camera = model.camera("cam").id)
         frame = renderer.render()
         frames.append(frame)
-        data.ctrl += control_step
+
 
     np_angles = np.rad2deg(np.array(angles)) #change angle unit to degrees
     np_forces = np.array(forces)
@@ -157,13 +164,13 @@ def save_animation(frames, filename="simulation.gif", duration=50):
                        loop=0)
 
 
-# np_angles, np_forces, np_torques, np_tendon_lengths, np_potential_energy, frames = run_simulation_by_pos(model, data, target_angle, angle_step)
-np_angles, np_forces, np_torques, np_tendon_lengths, np_potential_energy, frames = run_simulation_by_actuator(model, data, target_angle, angle_step)
+np_angles, np_forces, np_torques, np_tendon_lengths, np_potential_energy, frames = run_simulation_by_pos(model, data, target_angle, angle_step)
+# np_angles, np_forces, np_torques, np_tendon_lengths, np_potential_energy, frames = run_simulation_by_actuator(model, data, target_angle, angle_step)
 
-plot_relationship(np_angles, np_tendon_lengths, "Angle (degrees)", "Tendon Length (m)", "Tendon Length vs. Angle for Orthosis Structure")
+# plot_relationship(np_angles, np_tendon_lengths, "Angle (degrees)", "Tendon Length (m)", "Tendon Length vs. Angle for Orthosis Structure")
 plot_relationship(np_angles, np_potential_energy, "Angle (degrees)", "Potential Energy (J)", "Potential Energy vs. Angle for Orthosis Structure")
 plot_relationship(np_angles, np_forces, "Angle (degrees)", "Total Force (N)", "Total Force vs. Angle for Orthosis Structure")
-# plot_relationship(np_angles, np_torques, "Angle (degrees)", "Torque (N*mm)", "Torque vs. Angle for Orthosis Structure")
+plot_relationship(np_angles, np_torques, "Angle (degrees)", "Torque (N*mm)", "Torque vs. Angle for Orthosis Structure")
 
 
 # save_animation(frames, filename="simulation.gif", duration=50)
