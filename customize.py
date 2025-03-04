@@ -10,12 +10,12 @@ vals = {
     "tendonThickness": 0.8,
     "hingeLength": 0,
     "hingeThickness": 0.8,
-    "jointStiffness" : 10,
+    "jointStiffness" : 100,
     "jointDamping" : 10,
     "tendonExtendStiffness" : 10000,
-    "tendonExtendDamping" : 0,
-    "tendonBendStiffness" : 10,
-    "tendonBendDamping" : 0,
+    "tendonExtendDamping" : 10,
+    "tendonBendStiffness" : 100,
+    "tendonBendDamping" : 10,
 }
 
 def vals_to_parameters(vals):
@@ -160,6 +160,7 @@ def modify_model(xml_file, parameters):
             tendon.set("solreflimit", new_solreflimit)
             new_range = f"0 {parameters['tendonL']}"
             tendon.set("range", new_range)
+            tendon.set("springlength", new_range)
         if tendon.get("name") == "bendingTendon": 
             tendon.set("stiffness", str(parameters["tendonBendStiffness"]))
             tendon.set("damping", str(parameters["tendonBendDamping"]))

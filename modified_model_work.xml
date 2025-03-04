@@ -67,12 +67,8 @@
     </worldbody>
 
     <equality>
-        
-        <weld site1="hBAR" site2="sPIPR" />  
-        
+        <weld site1="hBAR" site2="sPIPR"/>  
     </equality>
-
-    
     
     <tendon>
         <spatial name="bendingTendon" springlength="0.5314167955265112" width="0.01" stiffness="100" damping="10">
@@ -80,10 +76,7 @@
             <site site="hAL" />
         </spatial>
         
-        
-        
-        
-        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -10" springlength="0 0.5314167955265112">    
+        <spatial name="extensionTendon" limited="true" springlength="0 0.5314167955265112" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
             <site site="hDL" />
             <site site="hAL" />
         </spatial>

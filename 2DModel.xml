@@ -67,8 +67,12 @@
     </worldbody>
 
     <equality>
-        <weld site1="hBAL" site2="sPIPL" solref="0.01 1"/>
-        <weld site1="hBAR" site2="sPIPR" solref="0.01 1"/>       
+        <!-- <weld site1="hBAL" site2="sPIPL"/> -->
+        <weld site1="hBAR" site2="sPIPR"/>  
+        <!-- solref (timeconst,dampratio)  solref="0 1" 
+        Time constant: Represents how quickly the constraint resolves a violation. Larger values mean the system is softer.
+        The lowest is 2*timestep.
+        Damping ratio: Typically set to 1 for critical damping; lower values lead to bouncier (underdamped) responses.-->
     </equality>
 
     <!-- If the tendon length is between the two values, the force is 0. If it is outside this range, 
@@ -82,14 +86,15 @@
         <!-- add extension resistance -->
         <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
         <!-- solreflimit [-stiffness -damping] damping should be 0-->
-        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0">
-            <site site="hDL"/>
-            <site site="hAL"/>
+        <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
+        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
+            <site site="hDL" />
+            <site site="hAL" />
         </spatial>
     </tendon>
 
     <actuator>
-        <motor name="finger_bend" joint="PIP" ctrlrange="-1 1" gear="100"/>
+        <motor name="finger_bend" joint="PIP" ctrlrange="-10 10" gear="100"/>
     </actuator>
 
     <sensor>
