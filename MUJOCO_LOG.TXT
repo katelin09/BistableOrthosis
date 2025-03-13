@@ -1,5718 +1,1575 @@
-Mon Mar  3 19:16:04 2025
-WARNING: Nan, Inf or huge value in QACC at DOF 2. The simulation is unstable. Time = 0.0200.
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:34 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:35 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:52 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:39:53 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:48 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:15 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
+Wed Mar  5 17:41:49 2025
 WARNING: mixed solref format, replacing with default
 
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
-
-Tue Mar  4 12:40:16 2025
-WARNING: mixed solref format, replacing with default
+Thu Mar  6 00:08:28 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 1.1160.
 

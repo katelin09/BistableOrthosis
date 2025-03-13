@@ -1,6 +1,6 @@
 <mujoco model="finger with orthotic">
-    <option timestep="0.005" iterations="50" solver="Newton" tolerance="1e-8" integrator="Euler">
-        <flag gravity="disable" contact="disable" energy="enable"/>
+    <option timestep="0.001" iterations="100" solver="Newton" tolerance="1e-8" integrator="implicitfast">
+        <flag gravity="disable" contact="disable" energy="enable" />
     </option>
 
     <compiler angle="degree"/>
@@ -77,17 +77,16 @@
 
     <!-- If the tendon length is between the two values, the force is 0. If it is outside this range, 
     the force behaves like a regular spring, with the rest-point corresponding to the nearest springlength value.  -->
-    <!-- limited="true" range="0 0.95" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-100 -0"  -->
+    <!-- back-up: limited="true" range="0 0.95" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-100 -0"  -->
     <tendon>
-        <spatial name="bendingTendon" limited="true" range="0.5314167955265112 2" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-1000 -10">
+        <spatial name="bendingTendon" limited="true" range="0.5314167955265112 2" width="0.01" solimplimit="0.001 0.8 0.001 0.5 2" solreflimit="-1000 -10">
             <site site="hDL"/>
             <site site="hAL"/>
         </spatial>
         <!-- add extension resistance -->
-        <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
-        <!-- solreflimit [-stiffness -damping] damping should be 0-->
-        <!-- <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
-        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" width="0.1" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
+        <!-- Or <spatial name="extensionTendon" springlength="0 0.5314167955265112" width="0.01" stiffness="10000" damping="1000" solreflimit="-10000 -0" solimplimit="0.001 0.001 0.001 0.5 2"> -->
+        <!-- solreflimit [-stiffness -damping]-->
+        <spatial name="extensionTendon" limited="true" range="0 0.5314167955265112" width="0.01" solimplimit="0.001 0.001 0.001 0.5 1" solreflimit="-10000 -0" >    
             <site site="hDL" />
             <site site="hAL" />
         </spatial>
