@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 # Define the path to the raw data folder
-folder_path = 'raw_data/'
+folder_path = 'raw_real_data/'
 
 # List of files to read
 files = ['m1-s1-p1.csv', 'm1-s1-p2.csv', 'm1-s1-p3.csv']
@@ -73,7 +73,7 @@ plt.show()
 
 
 # Save the processed data to a new CSV file
-folder_path = 'processed_data/'
+folder_path = 'processed_real_data/'
 output_file = 'm1-s1.csv'
 output_path = os.path.join(folder_path, output_file)
 data.to_csv(output_path, index=False)
