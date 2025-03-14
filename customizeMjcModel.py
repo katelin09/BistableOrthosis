@@ -2,38 +2,8 @@ import xml.etree.ElementTree as ET
 import numpy as np
 import math
 
-# Define the values for the changing parameters
-vals = {
-    "beamB": 25, 
-    "beamA": 30, 
-    "beamC": 30,
-    "theta": 30,
-    "tendonThickness": 1,
-    "tendonWidth": 1.6,
-    "hingeLength": 2,
-    "hingeThickness": 1,
-    "hingeWidth": 2.4,
-    "jointStiffness" : 2e5,
-    "jointStiffnessDampingRatio" : 2e2,
-    "tendonExtendStiffness" : 1e8,
-    "tendonExtendStiffnessDampingRatio" : 30,
-    "tendonBendStiffness" : 16e10,
-    "tendonBendStiffnessDampingRatio" : 2e5,
-}
 
-# some manual tuning tips:
-# damping ≈ 0.1~1.0 * sqrt(stiffness*mass)?
-# jointStiffness -> 50, no bistable
-# tendonExtendStiffness -> 1000, no bistable
-# "jointStiffness" : 20,
-# "jointDamping" : 10,
-# "tendonExtendStiffness" : 10000,
-# "tendonExtendDamping" : 100,
-# "tendonBendStiffness" : 100,
-# "tendonBendDamping" : 100,
-
-
-# TODO check more like: Euler–Bernoulli beam theory; stress, elongation
+# TODO check other beam theory; like: Euler–Bernoulli beam theory; stress, elongation
 def scaleBendingStiffness(stiffness, width, thickness, length, power = 3):
     # k = E * I / L^3
     # I = b * h^3 / 12
@@ -51,7 +21,6 @@ def scaleExtendStiffness(stiffness, width, thickness, length, power = 1):
 def vals_to_parameters(vals):
     parameters = {}
     
-    # Base parameters from vals (with defaults if not provided)
     parameters["beamB"] = vals.get("beamB", 25)
     parameters["beamA"] = vals.get("beamA", 25)
     parameters["beamC"] = vals.get("beamC", 25)
@@ -69,7 +38,6 @@ def vals_to_parameters(vals):
     # parameters["h3Length"] = vals.get("hingeLength", 2)
     # parameters["h3Thickness"] = vals.get("hingeThickness", 0.8)
     
-    # Compute the length of beam D, the angle beta, and the tendon length
     b = parameters["beamB"]
     c = parameters["beamC"]
     a = parameters["beamA"]
@@ -118,14 +86,12 @@ def scale_parameters_to_model_size(vals, scale_factor = 100.0):
     scaled_parameters["tendonBendStiffness"] = tendonBendStiffness
     tendonExtendStiffness = scaleExtendStiffness(scaled_parameters["tendonExtendStiffness"], scaled_parameters["tendonWidth"], scaled_parameters["tendonThickness"], scaled_parameters["tendonL"])
     scaled_parameters["tendonExtendStiffness"] = tendonExtendStiffness
-    # print(f"Joint stiffness: {jointStiffness}, tendonExtendStiffness: {tendonExtendStiffness}, tendonBendStiffness: {tendonBendStiffness}")
-
+    
     # Set the damping values based on the stiffness values and damping ratios
     scaled_parameters["jointDamping"] = scaled_parameters["jointStiffness"] / vals.get("jointStiffnessDampingRatio", 2)
     scaled_parameters["tendonExtendDamping"] = scaled_parameters["tendonExtendStiffness"] / vals.get("tendonExtendStiffnessDampingRatio", 10)
     scaled_parameters["tendonBendDamping"] = scaled_parameters["tendonBendStiffness"] / vals.get("tendonBendStiffnessDampingRatio", 10)
-    # print(f"Joint damping: {scaled_parameters['jointDamping']}, tendonExtendDamping: {scaled_parameters['tendonExtendDamping']}, tendonBendDamping: {scaled_parameters['tendonBendDamping']}")
-
+    
     return scaled_parameters
 
 
@@ -212,43 +178,32 @@ def modify_model(xml_file, saved_file, parameters):
     tree.write(saved_file)
 
 
-def generate_model(vals, xml_file, saved_file, scale_factor = 100.0):
+def generate_model(vals, xml_file="orthosis_model.xml", saved_file="intermediate_files/updated_model.xml", scale_factor = 100.0):
     # Generate the model with default parameters
     parameters = scale_parameters_to_model_size(vals, scale_factor)
     modify_model(xml_file, saved_file, parameters)
     # print(f"Generated model saved as: {saved_file}")
-
-
-generate_model(vals, "2DModel.xml", "modified_model.xml")
-
+    return saved_file
 
 
 
-# test: calculate the angle between beamB and beamC
-# beamB = parameters["beamB"]
-# beamC = parameters["beamC"]
-# beamD = parameters["beamD"]
-# print(f"BeamB: {beamB}, BeamC: {beamC}, BeamD: {beamD}")
-# angle = math.acos((beamB**2 + beamC**2 - beamD**2) / (2 * beamB * beamC))
-# angle = np.rad2deg(angle)
-# print(f"Angle between beamB and beamC: {angle:.2f} degrees")
+# Define the values for the changing parameters
+vals = {
+    "beamB": 25, 
+    "beamA": 30, 
+    "beamC": 30,
+    "theta": 30,
+    "tendonThickness": 1,
+    "tendonWidth": 1.6,
+    "hingeLength": 2,
+    "hingeThickness": 1,
+    "hingeWidth": 2.4,
+    "jointStiffness" : 2e5,
+    "jointStiffnessDampingRatio" : 2e2,
+    "tendonExtendStiffness" : 1e8,
+    "tendonExtendStiffnessDampingRatio" : 30,
+    "tendonBendStiffness" : 16e10,
+    "tendonBendStiffnessDampingRatio" : 2e5,
+}
 
-
-
-# parameters = {
-#     "beamA": 25,
-#     "beamB": 25,
-#     "beamC": 25,
-#     "beamD": 12.94,  # e.g. computed from your geometry
-#     "theta": 30,
-#     "tendonThickness": 0.8,
-#     "hingeLength": 2,
-#     "hingeThickness": 0.8,
-#     "tendonL": 50,   # could be used elsewhere
-#     "h1Length": 2,
-#     "h1Thickness": 0.8,
-#     "h2Length": 2,
-#     "h2Thickness": 0.8,
-#     "h3Length": 2,
-#     "h3Thickness": 0.8,
-# }
+generate_model(vals, "orthosis_model.xml", "intermediate_files/updated_model.xml")

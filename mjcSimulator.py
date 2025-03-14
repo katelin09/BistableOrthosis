@@ -2,7 +2,6 @@ import mujoco
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
-import time
 
 def run_simulation_by_pos(model, data, target_angle, angle_step, pip_id, hingeBA_id, extension_tendon_id):
     # Renderer setup
@@ -23,14 +22,12 @@ def run_simulation_by_pos(model, data, target_angle, angle_step, pip_id, hingeBA
             data.qvel[pip_id] = 0
             mujoco.mj_kinematics(model, data) #update the kinematics
         mujoco.mj_step(model, data)
-        # print(data.qpos[pip_id], current_angle, data.qpos[hingeBA_id])
 
         force = data.sensordata[1] #get y-axis force from sensor
-        # torque = - data.sensordata[5] #get torque from sensor
         torque = -data.joint("PIP").qfrc_constraint + data.joint("PIP").qfrc_smooth
         potential_energy.append(data.energy[1]) #get potential energy: position-dependent energy
         
-        angles.append(data.qpos[hingeBA_id]) # current_angle or data.qpos[hingeBA_id] or (current_angle + data.qpos[hingeBA_id])/2
+        angles.append(data.qpos[hingeBA_id]) 
         forces.append(force)
         torques.append(torque)
         tendon_lengths.append(data.ten_length[extension_tendon_id]) # == data.ten_length[bend_tendon_id]
@@ -71,15 +68,6 @@ def run_simulation_by_actuator(model, data, target_angle, pip_id, hingeBA_id, ex
             mujoco.mj_kinematics(model, data)
         mujoco.mj_step(model, data)
 
-        # mj_step computes the quantities 
-        # mjData.cacc: Body acceleration
-        # mjData.cfrc_int: Interaction force with the parent body.
-        # mjData.crfc_ext: External force acting on the body. 
-        # are used to compute the output of certain sensors (force, acceleration etc.)
-        # The computed force arrays cfrc_int and cfrc_ext currently suffer from a know bug, 
-        # they do not take into account the effect of spatial tendons
-        # force = data.sensordata[1] #get y-axis force from sensor
-        # force = -data.sensordata[0] #get x-axis force from sensor -> tendon force? curve is correct but this is the force along the beamA
         force = data.sensordata[1]
         torque = data.sensordata[5] #get torque from sensor
         potential_energy.append(data.energy[1]) #get potential energy
@@ -104,7 +92,6 @@ def run_simulation_by_actuator(model, data, target_angle, pip_id, hingeBA_id, ex
     return np_angles, np_forces, np_torques, np_tendon_lengths, np_potential_energy, frames
 
 
-# Plot function
 def plot_relationship(x_data, y_data, x_label, y_label, title, color='orange'):
     plt.figure(figsize=(10, 6))
     plt.plot(x_data, y_data, color=color)
@@ -115,7 +102,7 @@ def plot_relationship(x_data, y_data, x_label, y_label, title, color='orange'):
     plt.show()
 
 
-def save_animation(frames, filename="simulation.gif", duration=50):
+def save_animation(frames, filename="intermediate_files/simulation.gif", duration=50):
     # Convert each frame (a NumPy array) to a PIL Image.
     pil_frames = [Image.fromarray(frame) for frame in frames]
 
@@ -138,13 +125,7 @@ def simulate(model, byPos = True, plot=False, animate=False):
     pip_joint = model.joint("PIP")
     pip_id = pip_joint.id
     extension_tendon_id = model.tendon("extensionTendon").id
-    # bend_tendon_id = model.tendon("bendingTendon").id
     hingeBA_id = model.joint("hingeBA").id
-    # force_sensor_id = model.sensor("finger_force").id
-    # torque_sensor_id = model.sensor("finger_torque").id
-    # tendon_sensor_id = model.sensor("tendon_force").id
-    # beamA_id = model.body("Bnext").id
-    # finger_id = model.body("D2P").id
 
     target_angle = np.deg2rad(100) #unit: radians
     angle_step = model.opt.timestep
@@ -166,15 +147,15 @@ def simulate(model, byPos = True, plot=False, animate=False):
         plot_relationship(np_angles, np_torques, "Angle (degrees)", "Torque (N*mm)", "Torque vs. Angle for Orthosis Structure")
 
     if animate:
-        save_animation(frames, filename="simulation.gif", duration=50)
+        save_animation(frames, filename="intermediate_files/simulation.gif", duration=50)
 
     # save angles, forces, torques
-    np.savetxt("simu_angles.txt", np_angles)
-    np.savetxt("simu_forces.txt", np_forces)
-    np.savetxt("simu_torques.txt", np_torques)
+    np.savetxt("simu_data/simu_angles.txt", np_angles)
+    np.savetxt("simu_data/simu_forces.txt", np_forces)
+    np.savetxt("simu_data/simu_torques.txt", np_torques)
 
     return np_angles, np_forces, np_torques
 
 
 if __name__ == "__main__":
-    simulate("modified_model.xml", byPos = True, plot=False)
+    simulate("intermediate_files/updated_model.xml", byPos = True, plot=False)

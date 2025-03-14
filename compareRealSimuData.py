@@ -1,4 +1,3 @@
-import csv
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -29,7 +28,7 @@ def plot_real_simu_data(real_angles, real_data, simu_angles, simu_data, ylabel):
 
 
 # load processed_data/m1-s1.csv
-file_path = "processed_data/m1-s1.csv"
+file_path = "processed_real_data/m1-s1.csv"
 real_data = pd.read_csv(file_path, header=0)
 real_angles = real_data['Angle']
 real_forces = real_data['Force_smooth']
@@ -41,13 +40,9 @@ real_torques = real_torques.to_numpy()
 # plot_real_data(real_angles, real_forces, 'Forces (N)')
 
 # read simulation data
-simu_angles = np.loadtxt("simu_angles.txt")
-simu_forces = np.loadtxt("simu_forces.txt")
-simu_torques = np.loadtxt("simu_torques.txt")
-
-# dimension scale factor = 100; F=ma; TODO: check the scale of mass and acceleration
-# simu_forces = simu_forces / 1200
-# simu_torques = simu_torques / 8
+simu_angles = np.loadtxt("simu_data/simu_angles.txt")
+simu_forces = np.loadtxt("simu_data/simu_forces.txt")
+simu_torques = np.loadtxt("simu_data/simu_torques.txt")
 
 # plot_real_simu_data(real_angles, real_forces, simu_angles, simu_forces, 'Forces (N)')
 plot_real_simu_data(real_angles, real_torques, simu_angles, simu_torques, 'Torques (N.mm)')
