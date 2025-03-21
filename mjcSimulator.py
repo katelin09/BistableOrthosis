@@ -115,7 +115,7 @@ def save_animation(frames, filename="intermediate_files/simulation.gif", duratio
                        loop=0)
 
 
-def simulate(model, byPos = True, plot=False, animate=False):
+def simulate(model, byPos = True, plot=False, animate=False, animatefile="intermediate_files/simulation.gif"):
     #import model
     filename = model
     model = mujoco.MjModel.from_xml_path(filename) 
@@ -127,7 +127,7 @@ def simulate(model, byPos = True, plot=False, animate=False):
     extension_tendon_id = model.tendon("extensionTendon").id
     hingeBA_id = model.joint("hingeBA").id
 
-    target_angle = np.deg2rad(100) #unit: radians
+    target_angle = np.deg2rad(80) #unit: radians
     angle_step = model.opt.timestep
 
     if byPos:
@@ -147,7 +147,7 @@ def simulate(model, byPos = True, plot=False, animate=False):
         plot_relationship(np_angles, np_torques, "Angle (degrees)", "Torque (N*mm)", "Torque vs. Angle for Orthosis Structure")
 
     if animate:
-        save_animation(frames, filename="intermediate_files/simulation.gif", duration=50)
+        save_animation(frames, filename=animatefile, duration=2)
 
     # save angles, forces, torques
     np.savetxt("simu_data/simu_angles.txt", np_angles)

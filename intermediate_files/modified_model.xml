@@ -89,7 +89,8 @@
     </tendon>
 
     <actuator>
-        <motor name="finger_bend" joint="PIP" ctrlrange="-10 10" gear="100" />
+        <!-- <motor name="finger_bend" joint="PIP" ctrlrange="-10 10" gear="100" /> -->
+        <position name="by_pos" joint="PIP" kp="100000" />
     </actuator>
 
     <sensor>

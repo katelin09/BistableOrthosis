@@ -5,9 +5,10 @@ from sklearn.pipeline import make_pipeline
 from sklearn.linear_model import LinearRegression
 from joblib import dump
 import usingSimulator
+import matplotlib.pyplot as plt
 
 
-def generate_data(num_samples=1000):
+def generate_data(x_bounds,num_samples=1000):
     X = []
     y_down = []
     y_up = []
@@ -69,14 +70,14 @@ dir = 'trained_model_from_simu_data/'
 
 # Step1: Generate data
 # print("Generating training data...")
-# X_train, y_train_down, y_train_up = generate_data(num_samples=1000)
+# X_train, y_train_down, y_train_up = generate_data(x_bounds, num_samples=1000)
 # np.save(dir + 'X_train.npy', X_train)
 # np.save(dir + 'y_train_down.npy', y_train_down)
 # np.save(dir + 'y_train_up.npy', y_train_up)
 # print("Training data generated and saved.")
 
 # print("Generating testing data...")
-# X_test, y_test_down, y_test_up = generate_data(num_samples=10)
+# X_test, y_test_down, y_test_up = generate_data(x_bounds, num_samples=10)
 # np.save(dir + 'X_test.npy', X_test)
 # np.save(dir + 'y_test_down.npy', y_test_down)
 # np.save(dir + 'y_test_up.npy', y_test_up)
@@ -93,6 +94,9 @@ X_test = np.load(dir + 'X_test.npy')
 y_test_down = np.load(dir + 'y_test_down.npy')
 y_test_up = np.load(dir + 'y_test_up.npy')
 
+print(f"Training data shape: {X_train.shape}, {y_train_down.shape}, {y_train_up.shape}")
+print(X_train[0])
+
 print("Training models...")
 # Create polynomial features and linear regression pipeline
 model_down = make_pipeline(PolynomialFeatures(degree=3), LinearRegression())
@@ -104,6 +108,32 @@ model_up.fit(X_train, y_train_up)
 # Step 3: Test model
 print("Testing models...")
 test_models(model_down, model_up, X_test, y_test_down, y_test_up)
+poly_features = model_down.named_steps['polynomialfeatures']
+feature_names = poly_features.get_feature_names_out()
+print("Polynomial Features:")
+print(feature_names)
+# Plotting actual vs predicted values
+
+
+# Create subplots for torque down and up
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+
+# Plot for torque down
+ax1.scatter(y_test_down, model_down.predict(X_test), alpha=0.5)
+ax1.plot([y_test_down.min(), y_test_down.max()], [y_test_down.min(), y_test_down.max()], 'r--', lw=2)
+ax1.set_xlabel('Actual Torque Down')
+ax1.set_ylabel('Predicted Torque Down')
+ax1.set_title('Actual vs Predicted Torque Down')
+
+# Plot for torque up
+ax2.scatter(y_test_up, model_up.predict(X_test), alpha=0.5)
+ax2.plot([y_test_up.min(), y_test_up.max()], [y_test_up.min(), y_test_up.max()], 'r--', lw=2)
+ax2.set_xlabel('Actual Torque Up')
+ax2.set_ylabel('Predicted Torque Up')
+ax2.set_title('Actual vs Predicted Torque Up')
+
+plt.tight_layout()
+plt.show()
 
 # Step 4: Save models
 dump(model_down, dir + 'model_down.joblib')
