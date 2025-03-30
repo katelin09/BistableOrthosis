@@ -61,23 +61,23 @@ def optimized_through_trained_model(x0, input_params, bounds, target_torqueDown,
     # plt.show()
 
     # V2: PSO
-    boundaries = bounds
-    boundaries[2] = (input_params['naturalAngle'], input_params['naturalAngle']+2)
-    boundaries = tuple(map(tuple, np.transpose(boundaries)))
-    # adjust the angle bounds to be loose
-    # c1: (1) their cognitive desire to search individually, 
-    # c2: (2) and the collective action of the group or its neighbors. 
-    # w: inertia weight, which controls the impact of the previous velocity on the current one.
-    options = {'c1': 0.4, 'c2': 0.5, 'w': 0.5}
-    optimizer = ps.single.GlobalBestPSO(n_particles=1, dimensions=len(bounds), options=options, bounds=boundaries)
-    cost_history = optimizer.cost_history
-    _, optimal_x = optimizer.optimize(objective, iters=100)
-    plot_cost_history(cost_history)
-    plt.show()
+    # boundaries = bounds
+    # boundaries[2] = (input_params['naturalAngle'], input_params['naturalAngle']+2)
+    # boundaries = tuple(map(tuple, np.transpose(boundaries)))
+    # # adjust the angle bounds to be loose
+    # # c1: (1) their cognitive desire to search individually, 
+    # # c2: (2) and the collective action of the group or its neighbors. 
+    # # w: inertia weight, which controls the impact of the previous velocity on the current one.
+    # options = {'c1': 0.4, 'c2': 0.5, 'w': 0.5}
+    # optimizer = ps.single.GlobalBestPSO(n_particles=1, dimensions=len(bounds), options=options, bounds=boundaries)
+    # cost_history = optimizer.cost_history
+    # _, optimal_x = optimizer.optimize(objective, iters=100)
+    # plot_cost_history(cost_history)
+    # plt.show()
 
     # V3: L-BFGS-B
-    # result = minimize(objective, x, method='L-BFGS-B', bounds=bounds, options={'maxiter': 100, 'disp': True})
-    # optimal_x = result.x
+    result = minimize(objective, x, method='L-BFGS-B', bounds=bounds, options={'maxiter': 100, 'disp': True})
+    optimal_x = result.x
 
     # Adam
 
