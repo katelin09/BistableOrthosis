@@ -182,11 +182,11 @@ def customize(input_params, strength="default", model_dir=None, output_dir=None)
 # target_down: <250; <100; target_up: <50; <20
 # target_down = 120, 80, 40; target_up = 30, 10
 # 'naturalAngle' = 15, 30
-# target_torqueDown = 40.0
-# target_torqueUp = -30.0
-# natural_angle = 15
+target_torqueDown = 120.0
+target_torqueUp = -10.0
+natural_angle = 30
 
-# x, torque_down, torque_up, mjc_model_file, geometry_vals, torque_curve = customize_target(natural_angle, target_torqueDown, target_torqueUp, model_dir=None, output_dir=None)
+x, torque_down, torque_up, mjc_model_file, geometry_vals, torque_curve = customize_target(natural_angle, target_torqueDown, target_torqueUp, model_dir=None, output_dir=None)
 
 # print("\nFinal Results:")
 # print(f"Optimized parameters: {x}")

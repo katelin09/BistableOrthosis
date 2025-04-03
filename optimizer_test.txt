@@ -20,10 +20,10 @@ target_torqueUp = -30.0
 natural_angle = 15
 
 RESULTS:
-Optimized X: [30.         16.54388634 15.          0.69338814  5.          3.62232543
+Optimized X: [30.         25.33152656 15.          2.          1.85815605  0.99134472
   0.4       ]
-Model_prediction: Torque Down = 43.02596918361451, Torque Up = -18.259601552556887
-Simulation: Torque Down = 49.37329106532447, Torque Up = -11.375084095249106
+Model_prediction: Torque Down = 44.06361270684647, Torque Up = -13.86449919615643
+Simulation: Torque Down = 45.541973190074756, Torque Up = -10.042287425981911
 
 
 TEST 3
