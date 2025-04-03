@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "parameters": [
+      "beamALength",
+      "beamCLength",
+      "thetaDeg",
+      "tendonThickness",
+      "tendonWidth",
+      "hingeLength",
+      "hingeThickness"
+    ]
+  },
+  "models": {
+    "torque_down": [
+      {
+        "parameter": "beamALength",
+        "parameter_index": 0,
+        "type": "polynomial",
+        "degree": 1,
+        "intercept": -6.207120251576491,
+        "coefficients": [
+          0.0,
+          1.1059788139180133
+        ]
+      },
+      {
+        "parameter": "beamCLength",
+        "parameter_index": 1,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 32.426953241234656,
+        "coefficients": [
+          0.0,
+          -0.5546895945324177,
+          0.004763652549808987
+        ]
+      },
+      {
+        "parameter": "thetaDeg",
+        "parameter_index": 2,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 1.726021835623527,
+        "coefficients": [
+          0.0,
+          0.7708796645850101,
+          -0.0036417068343627007
+        ]
+      },
+      {
+        "parameter": "tendonThickness",
+        "parameter_index": 3,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 2.4026615434134975,
+        "coefficients": [
+          0.0,
+          22.52292730884176,
+          -3.458521476430018
+        ]
+      },
+      {
+        "parameter": "tendonWidth",
+        "parameter_index": 4,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 3.034148696501237,
+        "coefficients": [
+          0.0,
+          12.841639224213116,
+          -0.9839738352160615
+        ]
+      },
+      {
+        "parameter": "hingeLength",
+        "parameter_index": 5,
+        "type": "negative_power",
+        "degree": -2,
+        "intercept": 17.841307671183433,
+        "coefficients": [
+          0.7403087535723372,
+          8.6739271983619
+        ]
+      },
+      {
+        "parameter": "hingeThickness",
+        "parameter_index": 6,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 21.448740591467182,
+        "coefficients": [
+          0.0,
+          -2.6790932878355482,
+          2.758891163539778
+        ]
+      }
+    ],
+    "torque_up": [
+      {
+        "parameter": "beamALength",
+        "parameter_index": 0,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 16.23407073867958,
+        "coefficients": [
+          0.0,
+          -1.5417761355527462,
+          0.018775848153141646
+        ]
+      },
+      {
+        "parameter": "beamCLength",
+        "parameter_index": 1,
+        "type": "polynomial",
+        "degree": 1,
+        "intercept": -14.095089361088602,
+        "coefficients": [
+          0.0,
+          0.13689841679384707
+        ]
+      },
+      {
+        "parameter": "thetaDeg",
+        "parameter_index": 2,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": 1.7319237190077956,
+        "coefficients": [
+          0.0,
+          -0.29583268083617675,
+          -0.003834365839866996
+        ]
+      },
+      {
+        "parameter": "tendonThickness",
+        "parameter_index": 3,
+        "type": "polynomial",
+        "degree": 3,
+        "intercept": 6.99756352860549,
+        "coefficients": [
+          0.0,
+          -30.872795231397703,
+          16.167296224596274,
+          -2.975817505656427
+        ]
+      },
+      {
+        "parameter": "tendonWidth",
+        "parameter_index": 4,
+        "type": "polynomial",
+        "degree": 3,
+        "intercept": 5.299357017227205,
+        "coefficients": [
+          0.0,
+          -15.396064268358339,
+          3.9683603246400496,
+          -0.3227482238979461
+        ]
+      },
+      {
+        "parameter": "hingeLength",
+        "parameter_index": 5,
+        "type": "negative_power",
+        "degree": -3,
+        "intercept": -14.9770591974364,
+        "coefficients": [
+          0.11353372887295057,
+          32.7885476714529
+        ]
+      },
+      {
+        "parameter": "hingeThickness",
+        "parameter_index": 6,
+        "type": "polynomial",
+        "degree": 2,
+        "intercept": -10.877996185961916,
+        "coefficients": [
+          0.0,
+          -13.052439732984134,
+          13.20319351863783
+        ]
+      }
+    ]
+  }
+}

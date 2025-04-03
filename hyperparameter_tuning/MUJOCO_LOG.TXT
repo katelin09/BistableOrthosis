@@ -1,0 +1,9 @@
+Sun Mar 30 15:31:43 2025
+WARNING: Nan, Inf or huge value in CTRL at ACTUATOR 1. The simulation is unstable. Time = 1.4480.
+
+Sun Mar 30 15:31:43 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 1.4490.
+
+Sun Mar 30 15:31:43 2025
+WARNING: Nan, Inf or huge value in CTRL at ACTUATOR 1. The simulation is unstable. Time = 0.1880.
+

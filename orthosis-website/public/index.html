@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STL Mesh Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- left col for param inputs -->
+    <div class="left-column">
+      <!-- dimensions input section -->
+      <div class="parameter-section">
+        <h2>Dimensions</h2>
+      </div>
+      
+      <div class="parameter-section">
+        <img src="diagrams/dimensions.png" alt="Dimensions Diagram" class="parameter-image">
+        
+        <div class="input-container">
+          <table>
+            <tr>
+              <td>D1</td>
+              <td>D2</td>
+              <td>D3</td>
+            </tr>
+            <tr>
+              <td><input type="number" id="d1"></td>
+              <td><input type="number" id="d2"></td>
+              <td><input type="number" id="d3"></td>
+            </tr>
+          </table>
+          
+          <table>
+            <tr>
+              <td>W1</td>
+              <td>W2</td>
+              <td>W3</td>
+            </tr>
+            <tr>
+              <td><input type="number" id="w1"></td>
+              <td><input type="number" id="w2"></td>
+              <td><input type="number" id="w3"></td>
+            </tr>
+          </table>
+          
+          <table>
+            <tr>
+              <td>L1</td>
+              <td>L2</td>
+              <td>L3</td>
+            </tr>
+            <tr>
+              <td><input type="number" id="l1"></td>
+              <td><input type="number" id="l2"></td>
+              <td><input type="number" id="l3"></td>
+            </tr>
+          </table>
+          
+          <div class="unit-label">unit: mm</div>
+        </div>
+      </div>
+      
+      <!-- natural angle input section -->
+      <div class="parameter-section">
+        <h2>Natural angle</h2>
+      </div>
+      
+      <div class="parameter-section">
+        <img src="diagrams/natural_angle.png" alt="Natural Angle Diagram" class="parameter-image">
+        
+        <div class="input-container">
+          <table>
+            <tr>
+              <td>θ</td>
+            </tr>
+            <tr>
+              <td><input type="number" id="angle"></td>
+            </tr>
+          </table>
+          
+          <div class="unit-label">unit: degree</div>
+        </div>
+      </div>
+      
+      <!-- forces input section -->
+      <div class="parameter-section">
+        <h2>Forces</h2>
+      </div>
+      
+      <div class="parameter-section">
+        <img src="diagrams/forces.png" alt="Forces Diagram" class="parameter-image">
+        
+        <div class="input-container">
+          <table>
+            <tr>
+              <td>F<sub>external</sub></td>
+            </tr>
+            <tr>
+              <td><input type="number" id="f_external"></td>
+            </tr>
+          </table>
+          
+          <table>
+            <tr>
+              <td>F<sub>internal</sub></td>
+            </tr>
+            <tr>
+              <td><input type="number" id="f_internal"></td>
+            </tr>
+          </table>
+          
+          <table>
+            <tr>
+              <td>F<sub>total</sub></td>
+            </tr>
+            <tr>
+              <td><input type="number" id="f_total"></td>
+            </tr>
+          </table>
+          
+          <div class="unit-label">unit: N</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- right column (3d viewing, generation button, download button) -->
+    <div class="right-column">
+      <div id="viewer">
+        <div id="loading">Loading mesh...</div>
+      </div>
+      <button class="download-btn">download</button>
+      <div id="status"></div>
+    </div>
+    
+    <!-- generate button -->
+    <div class="generate-button">
+      <button id="generateBtn">GENERATE</button>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

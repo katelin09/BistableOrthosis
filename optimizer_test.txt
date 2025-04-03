@@ -1,0 +1,53 @@
+["beamALength", "beamCLength", "thetaDeg", "tendonThickness", "tendonWidth", "hingeLength", "hingeThickness"]
+
+
+TEST 1
+
+target_torqueDown = 40.0
+target_torqueUp = -10.0
+natural_angle = 15
+
+RESULTS:
+Optimized X: [28.31932487 38.66110573 15.          2.          2.23381816  2.6189574
+  0.64365892]
+Model_prediction: Torque Down = 40.238520522401814, Torque Up = -9.13564589663747
+Simulation: Torque Down = 39.822663321865384, Torque Up = -8.399672561009892
+
+TEST 2
+
+target_torqueDown = 40.0
+target_torqueUp = -30.0
+natural_angle = 15
+
+RESULTS:
+Optimized X: [30.         16.54388634 15.          0.69338814  5.          3.62232543
+  0.4       ]
+Model_prediction: Torque Down = 43.02596918361451, Torque Up = -18.259601552556887
+Simulation: Torque Down = 49.37329106532447, Torque Up = -11.375084095249106
+
+
+TEST 3
+
+target_torqueDown = 120.0
+target_torqueUp = -10.0
+natural_angle = 30
+
+RESULTS:
+Optimized X: [24.99455986 26.90378826 30.          2.37072475  3.62669651  3.74501258
+  2.27628405]
+Model_prediction: Torque Down = 119.99999633041807, Torque Up = -10.00000019874642
+Simulation: Torque Down = 118.49180708560327, Torque Up = -6.116587210484674
+
+
+
+TEST 4
+
+target_torqueDown = 120.0
+target_torqueUp = -30.0
+natural_angle = 30
+
+RESULTS:
+Optimized X: [28.55807664 13.90694273 30.          1.52191369  3.55909234  3.74519939
+  1.71353356]
+Model_prediction: Torque Down = 120.00000019307845, Torque Up = -30.000001300449185
+Simulation: Torque Down = 119.84718359137963, Torque Up = -33.02913177121189
