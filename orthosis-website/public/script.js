@@ -1,3 +1,4 @@
+
 // Elements
 const viewer = document.getElementById('viewer');
 const generateBtn = document.getElementById('generateBtn');
@@ -9,6 +10,7 @@ const downloadBtn = document.querySelector('.download-btn');
 let scene, camera, renderer, mesh;
 let isInitialized = false;
 let controls; // for orbit controls
+let optimizationResults = null; // Store optimization results
 
 // Initialize Three.js scene
 function initScene() {
@@ -134,7 +136,7 @@ function loadSTL() {
       animate();
     },
     function(xhr) {
-      const percentComplete = (xhr.loaded / xhr.total) * 100;
+      const percentComplete = (xhr.loaded / xhr.A) * 100;
       statusEl.textContent = `Loading: ${Math.round(percentComplete)}%`;
     },
     function(error) {
@@ -153,35 +155,123 @@ function animate() {
   renderer.render(scene, camera);
 }
 
+// Function to collect all input values
+function collectInputData() {
+    // Get the selected thickness option
+    let thicknessValue = "medium"; // Default to medium
+    const thicknessOptions = document.getElementsByName('thickness');
+    for (const option of thicknessOptions) {
+      if (option.checked) {
+        thicknessValue = option.value;
+        break;
+      }
+    }
+    
+    const data = {
+      dimensions: {
+        d1: parseFloat(document.getElementById('d1').value) || 0,
+        d2: parseFloat(document.getElementById('d2').value) || 0,
+        d3: parseFloat(document.getElementById('d3').value) || 0,
+        w1: parseFloat(document.getElementById('w1').value) || 0,
+        w2: parseFloat(document.getElementById('w2').value) || 0,
+        w3: parseFloat(document.getElementById('w3').value) || 0,
+        l1: parseFloat(document.getElementById('l1').value) || 0,
+        l2: parseFloat(document.getElementById('l2').value) || 0,
+        l3: parseFloat(document.getElementById('l3').value) || 0
+      },
+      naturalAngle: parseFloat(document.getElementById('angle').value) || 0,
+      forces: {
+        external: parseFloat(document.getElementById('f_external').value) || 0,
+        internal: parseFloat(document.getElementById('f_extend').value) || 0,
+        total: parseFloat(document.getElementById('f_bend').value) || 0
+      },
+      thickness: thicknessValue 
+    };
+    
+    return data;
+}
+
+// Function to send data to the optimizer and get results
+async function runOptimization(inputData) {
+  try {
+    const response = await fetch('/optimize', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(inputData)
+    });
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    
+    const results = await response.json();
+    optimizationResults = results; // Store the results
+    
+    console.log('Optimization results:', results);
+    statusEl.textContent = 'Optimization complete, generating mesh...';
+    
+    return results;
+  } catch (error) {
+    console.error('Optimization error:', error);
+    loadingEl.style.display = 'none';
+    statusEl.textContent = 'Error running optimization. Check console for details.';
+    throw error;
+  }
+}
+
 //event listeners
-generateBtn.addEventListener('click', function() {
-  statusEl.textContent = 'Generating mesh...';
+generateBtn.addEventListener('click', async function() {
+  statusEl.textContent = 'Collecting input data...';
   loadingEl.style.display = 'block';
   
-  initScene();
-  
-  fetch('/generate')
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      return response.text();
-    })
-    .then(data => {
-      console.log(data);
-      statusEl.textContent = 'Mesh generated, now loading...';
-      
-      loadSTL();
-    })
-    .catch(error => {
-      console.error('Error:', error);
-      loadingEl.style.display = 'none';
-      statusEl.textContent = 'Error generating mesh. Check console for details.';
+  try {
+    // Initialize the 3D scene if not already
+    initScene();
+    
+    // Collect all input data
+    const inputData = collectInputData();
+    console.log('Collected input data:', inputData);
+    
+    // Run optimization with input data
+    statusEl.textContent = 'Running optimization...';
+    const results = await runOptimization(inputData);
+    
+    // Generate the mesh with the optimization results
+    statusEl.textContent = 'Optimization complete, generating mesh...';
+    await fetch('/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        optimizationResults: results
+      })
     });
+    
+    // Load the STL mesh
+    statusEl.textContent = 'Mesh generated, now loading...';
+    loadSTL();
+  } catch (error) {
+    console.error('Error in generate process:', error);
+    loadingEl.style.display = 'none';
+    statusEl.textContent = 'Error in process. Check console for details.';
+  }
 });
 
 downloadBtn.addEventListener('click', function() {
-
-  // placeholdeer
-  statusEl.textContent = 'not done yet';
+  if (!optimizationResults) {
+    statusEl.textContent = 'No results available to download';
+    return;
+  }
+  
+  const downloadLink = document.createElement('a');
+  downloadLink.href = '/download';
+  downloadLink.download = 'generated_mesh.stl';
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
+  
+  statusEl.textContent = 'Downloading STL file';
 });

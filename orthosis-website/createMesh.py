@@ -1,3 +1,6 @@
+import argparse
+import json
+import sys
 import bpy
 import bmesh
 import mathutils
@@ -5,6 +8,160 @@ import math
 import random
 import time
 import os
+
+# Parse command line arguments
+argv = sys.argv
+if "--" in argv:
+    argv = argv[argv.index("--") + 1:]
+else:
+    argv = []
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--params', type=str, help='Path to parameters JSON file')
+args, unknown = parser.parse_known_args(argv)
+
+# default params
+params = {
+    "DIP_radius": 8.0,
+    "PIP_radius": 9.0,
+    "MCP_radius": 8.5,
+    "TIP_radius": 5.0,
+    "D2P_length": 20.0,
+    "P2M_length": 18.0,
+    "TIP_length": 18.0,
+    "A_length": 25.0,
+    "C_length": 25.0,
+    "theta_angle": 30.0,
+    "initial_angle": 2.0,
+    "D_length": 0.0,
+    "beta_angle": 0.0,
+    "B_length": 15.0,
+    "L_length": 0.0,
+    "gamma_angle": 0.0,
+    "H1_length": 2.0,
+    "H2_length": 2.0,
+    "H3_length": 2.0,
+    "H1_thickness": 0.6,
+    "H2_thickness": 0.6,
+    "H3_thickness": 0.6,
+    "L_thickness": 1.2,
+    "L_width": 1.6,
+    "L_offset": 0.8,
+    "Rigid_thickness": 2.0,
+    "Attach_thickness": 1.0,
+    "resolution": 64
+}
+
+#thickness presets for diff thickness choices by user
+thickness_presets = {
+    "soft": {
+        "H1_thickness": 0.4,
+        "H2_thickness": 0.4,
+        "H3_thickness": 0.4,
+        "L_thickness": 1.0,
+        "Rigid_thickness": 1.5,
+        "Attach_thickness": 0.8
+    },
+    "medium": {
+        "H1_thickness": 0.6,
+        "H2_thickness": 0.6,
+        "H3_thickness": 0.6,
+        "L_thickness": 1.2,
+        "Rigid_thickness": 2.0,
+        "Attach_thickness": 1.0
+    },
+    "stiff": {
+        "H1_thickness": 0.8,
+        "H2_thickness": 0.8,
+        "H3_thickness": 0.8,
+        "L_thickness": 1.5,
+        "Rigid_thickness": 2.5,
+        "Attach_thickness": 1.2
+    }
+}
+
+
+# if params file is provided, update params with input values
+if args.params and os.path.exists(args.params):
+    try:
+        with open(args.params, 'r') as f:
+            input_params = json.load(f)
+        
+        print("loading params from file:", args.params)
+        
+        dimensions = input_params.get('dimensions', {})
+        if dimensions:
+            # adjust if wrong vars matched up
+            params["D2P_length"] = dimensions.get('d1', params["D2P_length"])
+            params["P2M_length"] = dimensions.get('d2', params["P2M_length"]) 
+            params["TIP_length"] = dimensions.get('d3', params["TIP_length"])
+            
+            params["DIP_radius"] = dimensions.get('w1', params["DIP_radius"]) 
+            params["PIP_radius"] = dimensions.get('w2', params["PIP_radius"])
+            params["MCP_radius"] = dimensions.get('w3', params["MCP_radius"])
+            
+            params["L_width"] = dimensions.get('l1', params["L_width"])
+            params["A_length"] = dimensions.get('l2', params["A_length"])
+            params["C_length"] = dimensions.get('l3', params["C_length"])
+        
+        if 'naturalAngle' in input_params:
+            params["theta_angle"] = input_params.get('naturalAngle')
+            
+        #TODO should be from optimizer I think but not sure what exactly goes here
+        thickness_option = input_params.get('thickness', 'medium')
+        if thickness_option in thickness_presets:
+            for key, value in thickness_presets[thickness_option].items():
+                params[key] = value
+        
+        params["B_length"] = input_params.get('ptorqueExtend', params["B_length"]) / 2  # Example mapping
+        params["L_length"] = input_params.get('atorqueBend', params["L_length"]) / 25  # Example mapping
+        
+        #params from optimizer
+        if 'geometryValues' in input_params and input_params['geometryValues']:
+            geom_vals = input_params['geometryValues']
+            
+            if isinstance(geom_vals, dict):
+                print(f"DEBUG: geometryValues keys: {list(geom_vals.keys())}")
+                
+
+                if 'beamA' in geom_vals:
+                    params["A_length"] = geom_vals['beamA']
+                    
+                if 'beamB' in geom_vals:
+                    params["B_length"] = geom_vals['beamB']
+                    
+                if 'beamC' in geom_vals:
+                    params["C_length"] = geom_vals['beamC']
+                    
+                if 'theta' in geom_vals:
+                    params["theta_angle"] = geom_vals['theta']
+                    
+                if 'tendonThickness' in geom_vals:
+                    params["H1_thickness"] = geom_vals['tendonThickness']
+                    params["H2_thickness"] = geom_vals['tendonThickness']
+                    params["H3_thickness"] = geom_vals['tendonThickness']
+                    
+                if 'tendonWidth' in geom_vals:
+                    params["L_width"] = geom_vals['tendonWidth']
+                    
+                if 'hingeLength' in geom_vals:
+                    params["H1_length"] = geom_vals['hingeLength']
+                    params["H2_length"] = geom_vals['hingeLength']
+                    params["H3_length"] = geom_vals['hingeLength']
+            
+            
+            print("Params updated w geometry values")
+    except Exception as e:
+        print(f"Error loading params from file: {e}")
+        print("Using default params")
+else:
+    print("No param file provided or file not found. Using default params.")
+
+# final params used below
+print("Final parameters for mesh generation:")
+for key, value in params.items():
+    print(f"  {key}: {value}")
+
 
 
 ################################################################
@@ -131,44 +288,6 @@ def scene_setup():
 # helper functions END
 ################################################################
 
-params = {
-    "DIP_radius": 8.0,
-    "PIP_radius": 9.0,
-    "MCP_radius": 8.5,
-    "TIP_radius": 5.0,
-
-    "D2P_length": 20.0,
-    "P2M_length": 18.0,
-    "TIP_length": 18.0,
-
-    "A_length": 25.0,
-    "C_length": 25.0,
-    "theta_angle": 30.0,
-    "initial_angle": 2.0,
-
-    "D_length": 0.0,
-    "beta_angle": 0.0,
-    "B_length": 15.0,
-    "L_length": 0.0,
-    "gamma_angle": 0.0,
-
-    "H1_length": 2.0,
-    "H2_length": 2.0,
-    "H3_length": 2.0,
-
-    "H1_thickness": 0.6,
-    "H2_thickness": 0.6,
-    "H3_thickness": 0.6,
-
-    "L_thickness": 1.2,
-    "L_width": 1.6,
-    "L_offset": 0.8,
-
-    "Rigid_thickness": 2.0,
-    "Attach_thickness": 1.0,
-
-    "resolution": 64
-}
 
 
 def updateParams():
@@ -686,7 +805,7 @@ def create_animation():
 def main():
     updateParams()
     scene_setup()
-    create_finger()
+    # create_finger()
     objects_list = create_brace()
 
     # Deselect all objects first

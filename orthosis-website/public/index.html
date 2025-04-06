@@ -104,26 +104,55 @@
           
           <table>
             <tr>
-              <td>F<sub>internal</sub></td>
+              <td>F<sub>extend</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="f_internal"></td>
+              <td><input type="number" id="f_extend"></td>
             </tr>
           </table>
           
           <table>
             <tr>
-              <td>F<sub>total</sub></td>
+              <td>F<sub>bend</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="f_total"></td>
+              <td><input type="number" id="f_bend"></td>
             </tr>
           </table>
           
           <div class="unit-label">unit: N</div>
         </div>
       </div>
+
+      <!-- thickness input section -->
+      <div class="parameter-section">
+        <h2>Thickness</h2>
+      </div>
+
+      <div class="parameter-section">
+        <img src="diagrams/thickness.png" alt="Thickness Diagram" class="parameter-image">
+        
+        <div class="input-container">
+          <div class="radio-options">
+            <label>
+              <input type="radio" name="thickness" id="thickness-soft" value="soft" checked>
+              Soft
+            </label>
+            <label>
+              <input type="radio" name="thickness" id="thickness-medium" value="medium">
+              Medium
+            </label>
+            <label>
+              <input type="radio" name="thickness" id="thickness-stiff" value="stiff">
+              Stiff
+            </label>
+          </div>
+          
+          <div class="unit-label">material stiffness</div>
+        </div>
+      </div>
     </div>
+
     
     <!-- right column (3d viewing, generation button, download button) -->
     <div class="right-column">
