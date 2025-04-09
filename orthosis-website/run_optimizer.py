@@ -28,6 +28,7 @@ def main():
             'atorqueExtend': params.get('atorqueExtend', 20.0)
         }
         
+        
 
         output_dir = params.get('output_dir', "optimization_results")
         os.makedirs(output_dir, exist_ok=True)
@@ -57,7 +58,8 @@ def main():
                 'l1': params.get('l1'),
                 'l2': params.get('l2'),
                 'l3': params.get('l3')
-            }
+            },
+            
         }
         
         results_file = os.path.join(current_dir, 'optimization_results.json')

@@ -64,7 +64,7 @@
       
       <!-- natural angle input section -->
       <div class="parameter-section">
-        <h2>Natural angle</h2>
+        <h2>Extension angle</h2>
       </div>
       
       <div class="parameter-section">
@@ -95,7 +95,7 @@
         <div class="input-container">
           <table>
             <tr>
-              <td>F<sub>external</sub></td>
+              <td>F<sub>ext,p</sub></td>
             </tr>
             <tr>
               <td><input type="number" id="f_external"></td>
@@ -104,7 +104,7 @@
           
           <table>
             <tr>
-              <td>F<sub>extend</sub></td>
+              <td>F<sub>ext,a</sub></td>
             </tr>
             <tr>
               <td><input type="number" id="f_extend"></td>
@@ -113,7 +113,7 @@
           
           <table>
             <tr>
-              <td>F<sub>bend</sub></td>
+              <td>F<sub>bend,a</sub></td>
             </tr>
             <tr>
               <td><input type="number" id="f_bend"></td>
@@ -126,12 +126,12 @@
 
       <!-- thickness input section -->
       <div class="parameter-section">
-        <h2>Thickness</h2>
+        <h2>Device Strength</h2>
       </div>
+      
 
       <div class="parameter-section">
-        <img src="diagrams/thickness.png" alt="Thickness Diagram" class="parameter-image">
-        
+
         <div class="input-container">
           <div class="radio-options">
             <label>
@@ -148,7 +148,7 @@
             </label>
           </div>
           
-          <div class="unit-label">material stiffness</div>
+
         </div>
       </div>
     </div>
@@ -158,20 +158,21 @@
     <div class="right-column">
       <div id="viewer">
         <div id="loading">Loading mesh...</div>
+        <!-- Generate button moved inside viewer -->
+        <div class="generate-button">
+          <button id="generateBtn">Generate</button>
+        </div>
       </div>
-      <button class="download-btn">download</button>
+      <button class="download-btn">Download</button>
       <div id="status"></div>
-    </div>
-    
-    <!-- generate button -->
-    <div class="generate-button">
-      <button id="generateBtn">GENERATE</button>
     </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/STLLoader.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/TrackballControls.js"></script>
+
   <script src="script.js"></script>
 </body>
 </html>

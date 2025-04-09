@@ -8,6 +8,7 @@ import math
 import random
 import time
 import os
+import numpy as np
 
 # Parse command line arguments
 argv = sys.argv
@@ -52,34 +53,32 @@ params = {
     "resolution": 64
 }
 
-#thickness presets for diff thickness choices by user
-thickness_presets = {
-    "soft": {
-        "H1_thickness": 0.4,
-        "H2_thickness": 0.4,
-        "H3_thickness": 0.4,
-        "L_thickness": 1.0,
-        "Rigid_thickness": 1.5,
-        "Attach_thickness": 0.8
-    },
-    "medium": {
-        "H1_thickness": 0.6,
-        "H2_thickness": 0.6,
-        "H3_thickness": 0.6,
-        "L_thickness": 1.2,
-        "Rigid_thickness": 2.0,
-        "Attach_thickness": 1.0
-    },
-    "stiff": {
-        "H1_thickness": 0.8,
-        "H2_thickness": 0.8,
-        "H3_thickness": 0.8,
-        "L_thickness": 1.5,
-        "Rigid_thickness": 2.5,
-        "Attach_thickness": 1.2
-    }
-}
 
+def calculate_derived_parameters(geoparams):
+    """
+    Calculate derived geometric parameters based on input parameters
+    """
+    b = geoparams["beamB"]
+    c = geoparams["beamC"]
+    a = geoparams["beamA"]
+    theta = geoparams["theta"]
+    theta_radians = np.deg2rad(theta)
+    
+    d = np.sqrt(b**2 + c**2 - 2 * b * c * np.cos(theta_radians))
+    cos_beta = (d**2 + b**2 - c**2) / (2 * b * d)
+    beta_radians = np.arccos(cos_beta)
+    
+    _1 = b + a
+    _2 = d
+    L = np.sqrt(_1**2 + _2**2 - 2 * _1 * _2 * np.cos(beta_radians))
+    
+    derived_params = {
+        "beta": np.rad2deg(beta_radians),
+        "beamD": d,
+        "tendonL": L
+    }
+    
+    return derived_params
 
 # if params file is provided, update params with input values
 if args.params and os.path.exists(args.params):
@@ -88,32 +87,23 @@ if args.params and os.path.exists(args.params):
             input_params = json.load(f)
         
         print("loading params from file:", args.params)
+        print(input_params)
         
         dimensions = input_params.get('dimensions', {})
         if dimensions:
             # adjust if wrong vars matched up
-            params["D2P_length"] = dimensions.get('d1', params["D2P_length"])
-            params["P2M_length"] = dimensions.get('d2', params["P2M_length"]) 
-            params["TIP_length"] = dimensions.get('d3', params["TIP_length"])
+            params["D2P_length"] = dimensions.get('l1', params["D2P_length"])
+            params["P2M_length"] = dimensions.get('l2', params["P2M_length"]) 
+            params["TIP_length"] = dimensions.get('l3', params["TIP_length"])
             
             params["DIP_radius"] = dimensions.get('w1', params["DIP_radius"]) 
             params["PIP_radius"] = dimensions.get('w2', params["PIP_radius"])
             params["MCP_radius"] = dimensions.get('w3', params["MCP_radius"])
             
-            params["L_width"] = dimensions.get('l1', params["L_width"])
-            params["A_length"] = dimensions.get('l2', params["A_length"])
-            params["C_length"] = dimensions.get('l3', params["C_length"])
         
         if 'naturalAngle' in input_params:
             params["theta_angle"] = input_params.get('naturalAngle')
-            
-        #TODO should be from optimizer I think but not sure what exactly goes here
-        thickness_option = input_params.get('thickness', 'medium')
-        if thickness_option in thickness_presets:
-            for key, value in thickness_presets[thickness_option].items():
-                params[key] = value
         
-        params["B_length"] = input_params.get('ptorqueExtend', params["B_length"]) / 2  # Example mapping
         params["L_length"] = input_params.get('atorqueBend', params["L_length"]) / 25  # Example mapping
         
         #params from optimizer
@@ -123,6 +113,8 @@ if args.params and os.path.exists(args.params):
             if isinstance(geom_vals, dict):
                 print(f"DEBUG: geometryValues keys: {list(geom_vals.keys())}")
                 
+                if 'B_length' in geom_vals:
+                    params["B_length"] = geom_vals['B_length']
 
                 if 'beamA' in geom_vals:
                     params["A_length"] = geom_vals['beamA']
@@ -136,19 +128,32 @@ if args.params and os.path.exists(args.params):
                 if 'theta' in geom_vals:
                     params["theta_angle"] = geom_vals['theta']
                     
-                if 'tendonThickness' in geom_vals:
-                    params["H1_thickness"] = geom_vals['tendonThickness']
-                    params["H2_thickness"] = geom_vals['tendonThickness']
-                    params["H3_thickness"] = geom_vals['tendonThickness']
+                if 'hingeThickness' in geom_vals:
+                    params["H1_thickness"] = geom_vals['hingeThickness']
+                    params["H2_thickness"] = geom_vals['hingeThickness']
+                    params["H3_thickness"] = geom_vals['hingeThickness']
                     
                 if 'tendonWidth' in geom_vals:
                     params["L_width"] = geom_vals['tendonWidth']
+                    
+                if 'tendonThickness' in geom_vals:
+                    params["L_thickness"] = geom_vals["tendonThickness"]
                     
                 if 'hingeLength' in geom_vals:
                     params["H1_length"] = geom_vals['hingeLength']
                     params["H2_length"] = geom_vals['hingeLength']
                     params["H3_length"] = geom_vals['hingeLength']
-            
+
+                if 'hingeWidth' in geom_vals:
+                    params["Rigid_thickness"] = geom_vals['hingeWidth']
+                    
+                if 'beamB' in geom_vals and 'beamA'in geom_vals and 'beamC' in geom_vals and 'theta' in geom_vals:
+                    derived_params = calculate_derived_parameters(geom_vals)
+                    params["D_length"] = derived_params['beamD']
+                    params["beta_angle"] = derived_params['beta']
+                    params["L_length"] = derived_params['tendonL']
+                    print("derived params")
+                    print(derived_params)
             
             print("Params updated w geometry values")
     except Exception as e:
@@ -161,7 +166,6 @@ else:
 print("Final parameters for mesh generation:")
 for key, value in params.items():
     print(f"  {key}: {value}")
-
 
 
 ################################################################
@@ -289,6 +293,36 @@ def scene_setup():
 ################################################################
 
 
+params = {
+    "DIP_radius": 8.0,
+    "PIP_radius": 9.0,
+    "MCP_radius": 8.5,
+    "TIP_radius": 5.0,
+    "D2P_length": 20.0,
+    "P2M_length": 18.0,
+    "TIP_length": 18.0,
+    "A_length": 25.0,
+    "C_length": 25.0,
+    "theta_angle": 30.0,
+    "initial_angle": 2.0,
+    "D_length": 0.0,
+    "beta_angle": 0.0,
+    "B_length": 15.0,
+    "L_length": 0.0,
+    "gamma_angle": 0.0,
+    "H1_length": 2.0,
+    "H2_length": 2.0,
+    "H3_length": 2.0,
+    "H1_thickness": 0.6,
+    "H2_thickness": 0.6,
+    "H3_thickness": 0.6,
+    "L_thickness": 1.2,
+    "L_width": 1.6,
+    "L_offset": 0.8,
+    "Rigid_thickness": 2.0,
+    "Attach_thickness": 1.0,
+    "resolution": 64
+}
 
 def updateParams():
     params["H2_length"] = params["H1_length"]
@@ -696,6 +730,41 @@ def create_beamL():
     bpy.context.collection.objects.link(obj)
     return obj
 
+def create_top_bridge():
+    mesh = bpy.data.meshes.new("top_bridge_mesh")
+    bm = bmesh.new()
+    
+    # Calculate dimensions and positions based on create_blockB
+    x_length = max(params["DIP_radius"], params["PIP_radius"], params["MCP_radius"]) + params["Rigid_thickness"] + params["L_offset"] + params["L_width"] - params["MCP_radius"]
+    y = (params["D_length"] + params["H3_length"]) * math.cos(math.pi - math.radians(params["beta_angle"])) + params["B_length"] + params["H3_thickness"]
+    z = (params["D_length"] + params["H3_length"]) * math.sin(math.pi - math.radians(params["beta_angle"]))
+    
+    # Define bridge thickness (height in Z)
+    bridge_z_thickness = params["Rigid_thickness"]
+    
+    bmesh.ops.create_cube(bm, size=1.0)
+    
+    # Scale the cube to span the blocks
+    for v in bm.verts:
+        # X: Span from outer edge of mirrored block to outer edge of original block
+        v.co.x *= 2 * (params["MCP_radius"] + x_length)
+        # Y: Match the Y extent of the blocks
+        v.co.y *= 2 * params["Rigid_thickness"]
+        # Z: Set the bridge thickness
+        v.co.z *= bridge_z_thickness
+    
+    # Position bridge
+    for v in bm.verts:
+        v.co.y += y + params["Rigid_thickness"] - params["H3_thickness"]
+        v.co.z += z + params["Rigid_thickness"] + bridge_z_thickness / 2
+    
+    bm.to_mesh(mesh)
+    bm.free()
+    
+    obj = bpy.data.objects.new("top_bridge", mesh)
+    bpy.context.collection.objects.link(obj)
+    return obj
+
 
 def create_brace():
     # Calculate radius at specific y positions
@@ -726,6 +795,8 @@ def create_brace():
     objBlockA = create_blockA()
     objBlockB = create_blockB()
     objL = create_beamL()
+    
+    objects_list = [objA, objB, objH1, objH2, objH3, objBlockA, objBlockB, objL]
 
     mirror_objects = objH1, objH2, objH3, objBlockA, objBlockB, objL
     for obj in mirror_objects:
@@ -735,6 +806,10 @@ def create_brace():
         for v in obj_copy.data.vertices:
             v.co.x = -v.co.x
         obj_copy.name = obj.name + "_2"
+        
+    # Add the top bridge between objBlockB and its mirrored copy
+    bridge_obj = create_top_bridge()
+    objects_list.append(bridge_obj)
 
     # Create cutter cylinder
     cut_mesh = bpy.data.meshes.new("cut_mesh")
@@ -770,7 +845,7 @@ def create_brace():
     cut_obj.hide_viewport = True
 
     # Select all objects to join
-    objects_list = [objA, objB, objH1, objH2, objH3, objBlockA, objBlockB, objL]
+
     mirror_objects = [obj for obj in bpy.data.objects if obj.name.endswith("_2")]
     objects_list.extend(mirror_objects)
 
@@ -800,31 +875,52 @@ def create_animation():
         for fcurve in obj.animation_data.action.fcurves:
             for kf in fcurve.keyframe_points:
                 kf.interpolation = 'LINEAR'
+                
+# Helper function to join objects and export to STL
+def export_joined_stl(objects, filename, name):
+    bpy.ops.object.select_all(action='DESELECT')
+    for obj in objects:
+        obj.select_set(True)
+    bpy.context.view_layer.objects.active = objects[0]
+    bpy.ops.object.join()
+    bpy.context.active_object.name = name
+    export_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), filename)
+    bpy.ops.wm.stl_export(filepath=export_path)
 
 
 def main():
     updateParams()
+    
+    # 1. Create and export the finger mesh
     scene_setup()
-    # create_finger()
-    objects_list = create_brace()
-
-    # Deselect all objects first
-    bpy.ops.object.select_all(action='DESELECT')
-
-    # Select all objects and make objA active
-    for obj in objects_list:
-        obj.select_set(True)
-    bpy.context.view_layer.objects.active = objects_list[0]
-
-    # Join the objects
-    bpy.ops.object.join()
-
-    # Rename the resulting object
-    objects_list[0].name = "brace"
-
-    # Export the brace to STL format using absolute path
-    export_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "brace.stl")
-    bpy.ops.wm.stl_export(filepath=export_path)
+    # finger_mesh, finger_bmesh, finger_obj = create_finger()
+    # export_stl(finger_obj, "finger.stl")
+    
+    # 2. Delete the finger to avoid it being included in brace or mixed up
+    # bpy.ops.object.select_all(action='DESELECT')
+    # finger_obj.select_set(True)
+    # bpy.ops.object.delete()
+    
+    # 3. Create and export the brace
+    brace_objects = create_brace()
+    export_joined_stl(brace_objects, "brace.stl", "brace")
+    
+    # 4. Delete all objects
+    bpy.ops.object.select_all(action='SELECT')
+    bpy.ops.object.delete()
+    
+    # 5. Create and export the combined model (for backward compatibility)
+    scene_setup()
+    # finger_mesh, finger_bmesh, finger_obj = create_finger()
+    brace_objects = create_brace()
+    # all_objects = [finger_obj] + brace_objects
+    # export_joined_stl(all_objects, "brace_combined.stl", "combined_model")
+    export_joined_stl(brace_objects, "brace_combined.stl", "combined_model")
+    
+    print("Exported STL files:")
+    print("  finger.stl - Silver material")
+    print("  brace.stl - Black material")
+    print("  brace_combined.stl - Combined model (for backward compatibility)")
 
 
 if __name__ == "__main__":

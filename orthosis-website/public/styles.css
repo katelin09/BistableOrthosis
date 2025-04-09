@@ -13,10 +13,11 @@ body {
 }
 
 .left-column {
-  width: 45%;
-  padding: 20px;
+  width: 40%;
+  padding: 10px 5px; /* Reduced right padding to 5px */
   border-right: 1px solid #ccc;
   overflow-y: auto;
+  max-height: 100vh;
 }
 
 .right-column {
@@ -28,58 +29,72 @@ body {
 }
 
 .parameter-section {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   display: flex;
   align-items: flex-start;
+  padding-right: 0; /* Remove right padding */
 }
 
+/* Section title style - slightly increased left margin */
 h2 {
   margin-top: 0;
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  margin-left: 15px;
+  text-align: left;
 }
 
+
+/* Make diagrams much wider */
 .parameter-image {
-  width: 60%;
-  max-width: 300px;
-  margin-right: 20px;
+  width: 38%; /* Increased from previous value */
+  margin-right: 5px; /* Reduced right margin */
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  height: 5%
 }
 
+
+/* Make input tables much smaller */
 .input-container {
-  width: 40%;
+  width: 40%; /* Decreased from previous value */
   flex-shrink: 0;
+  margin-right: 0px; /* No right margin */
+  margin-left: 40px;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   table-layout: fixed;
 }
 
 td {
-  padding: 5px;
+  padding: 0px 2px; /* Reduced padding */
   text-align: center;
   border: 1px solid #ddd;
+  font-size: 13px;
 }
 
 input[type="text"], input[type="number"] {
-  width: 85%;
-  padding: 5px;
+  width: 95%; /* Increased to fill the smaller cells */
+  padding: 1px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
 .unit-label {
   color: #666;
-  font-size: 12px;
-  margin-top: 5px;
+  font-size: 11px;
+  margin-top: 4px;
   text-align: right;
 }
 
 #viewer {
   width: 90%;
-  height: 60vh;
+  height: 90vh;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -103,20 +118,20 @@ input[type="text"], input[type="number"] {
 
 .generate-button {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 13%;
+  bottom: 2%;
+  transform: translate(-75%, -10%);
   z-index: 10;
 }
 
 #generateBtn {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background-color: #4CAF50;
+  background-color: #000000;
   color: white;
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -124,11 +139,11 @@ input[type="text"], input[type="number"] {
 }
 
 #generateBtn:hover {
-  background-color: #45a049;
+  background-color: #505050;
 }
 
 .download-btn {
-  background-color: #3498db;
+  background-color: #000000;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -140,7 +155,7 @@ input[type="text"], input[type="number"] {
 }
 
 .download-btn:hover {
-  background-color: #2980b9;
+  background-color: #505050;
 }
 
 #status {
@@ -152,8 +167,9 @@ input[type="text"], input[type="number"] {
 .radio-options {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding-left: 15px;
 }
 
 .radio-options label {
@@ -164,4 +180,14 @@ input[type="text"], input[type="number"] {
 
 .radio-options input[type="radio"] {
   margin-right: 8px;
+}
+
+/* Fix alignment for dimensions section */
+.parameter-section:nth-of-type(2) {
+  align-items: center; /* Center align items vertically */
+}
+
+/* Alternative approach if the above doesn't work */
+.parameter-section:nth-of-type(2) .parameter-image {
+  align-self: center; /* Center just the image */
 }

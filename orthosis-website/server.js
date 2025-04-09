@@ -177,8 +177,22 @@ app.post('/generate', (req, res) => {
 });
 
 
-app.get('/mesh', (req, res) => {
+// app.get('/mesh', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'brace.stl'));
+// });
+
+// Add these routes before the existing '/mesh' route
+app.get('/finger.stl', (req, res) => {
+  res.sendFile(path.join(__dirname, 'finger.stl'));
+});
+
+app.get('/brace.stl', (req, res) => {
   res.sendFile(path.join(__dirname, 'brace.stl'));
+});
+
+// Modify the existing /mesh route to send the combined file
+app.get('/mesh', (req, res) => {
+  res.sendFile(path.join(__dirname, 'brace_combined.stl'));
 });
 
 
