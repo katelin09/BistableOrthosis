@@ -156,7 +156,7 @@ function loadSTL() {
       // Create and add finger mesh to the group
       const fingerMesh = new THREE.Mesh(fingerGeometry, fingerMaterial);
       fingerMesh.name = "finger";
-      fingerMesh.rotation.z = Math.PI/2;
+      // fingerMesh.rotation.z = Math.PI/2;
       // fingerMesh.rotation.x = -0.1;
       fingerMesh.position.y = -4; //move knuckle back and forth
       fingerMesh.position.z =-1; //move up and down

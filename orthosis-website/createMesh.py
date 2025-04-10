@@ -876,6 +876,14 @@ def create_animation():
             for kf in fcurve.keyframe_points:
                 kf.interpolation = 'LINEAR'
                 
+# Helper function to export an object to STL
+def export_stl(obj, filename):
+    bpy.ops.object.select_all(action='DESELECT')
+    obj.select_set(True)
+    bpy.context.view_layer.objects.active = obj
+    export_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), filename)
+    bpy.ops.wm.stl_export(filepath=export_path)
+                
 # Helper function to join objects and export to STL
 def export_joined_stl(objects, filename, name):
     bpy.ops.object.select_all(action='DESELECT')
@@ -893,13 +901,13 @@ def main():
     
     # 1. Create and export the finger mesh
     scene_setup()
-    # finger_mesh, finger_bmesh, finger_obj = create_finger()
-    # export_stl(finger_obj, "finger.stl")
+    finger_mesh, finger_bmesh, finger_obj = create_finger()
+    export_stl(finger_obj, "finger.stl")
     
     # 2. Delete the finger to avoid it being included in brace or mixed up
-    # bpy.ops.object.select_all(action='DESELECT')
-    # finger_obj.select_set(True)
-    # bpy.ops.object.delete()
+    bpy.ops.object.select_all(action='DESELECT')
+    finger_obj.select_set(True)
+    bpy.ops.object.delete()
     
     # 3. Create and export the brace
     brace_objects = create_brace()
@@ -911,10 +919,10 @@ def main():
     
     # 5. Create and export the combined model (for backward compatibility)
     scene_setup()
-    # finger_mesh, finger_bmesh, finger_obj = create_finger()
+    finger_mesh, finger_bmesh, finger_obj = create_finger()
     brace_objects = create_brace()
-    # all_objects = [finger_obj] + brace_objects
-    # export_joined_stl(all_objects, "brace_combined.stl", "combined_model")
+    all_objects = [finger_obj] + brace_objects
+    export_joined_stl(all_objects, "brace_combined.stl", "combined_model")
     export_joined_stl(brace_objects, "brace_combined.stl", "combined_model")
     
     print("Exported STL files:")
