@@ -22,7 +22,7 @@ This project provides a framework for simulating and optimizing mechanical model
 │   └── results/                # Tuning results
 │
 ├── optimizer/                   # Parameter optimization
-│   ├── optimization.py         # Parameter optimization algorithms
+│   ├── optimization3.py         # Parameter optimization algorithms
 │   ├── trainModel.py          # Model training script
 │   ├── temp/                   # Temporary optimization files
 │   ├── results/                # Optimization results
