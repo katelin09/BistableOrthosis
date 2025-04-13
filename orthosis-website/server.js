@@ -37,7 +37,6 @@ app.post('/optimize', (req, res) => {
     l3: inputData.dimensions.l3,
 
     thickness: inputData.thickness
-    // TODO is this thickness part right
   };
   
   // temp JSON file w params

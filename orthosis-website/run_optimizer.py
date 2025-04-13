@@ -7,7 +7,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
 sys.path.append(os.path.join(parent_dir, "optimizer"))
 
-from optimization import customize, create_trig_features
+from optimization3 import customize
 
 def main():
 
@@ -19,8 +19,13 @@ def main():
 
         with open(args.params, 'r') as f:
             params = json.load(f)
+            
+        l2 = params.get('l2',18)
         
-
+        params['ptorqueExtend'] *= l2
+        params['atorqueBend'] *= l2
+        params['atorqueExtend'] *= l2
+        
         input_params = {
             'naturalAngle': params.get('naturalAngle', 22.0),
             'ptorqueExtend': params.get('ptorqueExtend', 30.0),

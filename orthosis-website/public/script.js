@@ -135,12 +135,7 @@ function loadSTL() {
     flatShading: false,   
   });
   
-  // const braceMaterial = new THREE.MeshPhongMaterial({
-  //   color: 0x000000,  // Black color
-  //   specular: 0x000000,
-  //   shininess: 20
-  // });
-  
+
   // Create a group to hold both meshes
   const group = new THREE.Group();
   mesh = group;  // Store reference to the group
@@ -159,7 +154,7 @@ function loadSTL() {
       // fingerMesh.rotation.z = Math.PI/2;
       // fingerMesh.rotation.x = -0.1;
       fingerMesh.position.y = -4; //move knuckle back and forth
-      fingerMesh.position.z =-1; //move up and down
+      fingerMesh.position.z =-5; //move up and down
       group.add(fingerMesh);
       
       statusEl.textContent = 'Finger loaded. Now loading brace...';
@@ -187,7 +182,7 @@ function loadSTL() {
           group.scale.set(scale, scale, scale);
           
           // Position camera
-          camera.position.z = maxDim;
+          camera.position.z = maxDim * 0.7 ;
           
           loadingEl.style.display = 'none';
           statusEl.textContent = 'Mesh loaded successfully';
@@ -212,7 +207,7 @@ function loadSTL() {
           const scale = 50 / maxDim;
           group.scale.set(scale, scale, scale);
           
-          camera.position.z = maxDim;
+          camera.position.z = maxDim * 0.7;
           
           loadingEl.style.display = 'none';
           statusEl.textContent = 'Only finger mesh loaded (brace failed)';
@@ -250,7 +245,7 @@ function loadSTL() {
           const scale = 50 / maxDim;
           group.scale.set(scale, scale, scale);
           
-          camera.position.z = maxDim;
+          camera.position.z = maxDim * 0.7;
           
           loadingEl.style.display = 'none';
           statusEl.textContent = 'Only brace mesh loaded (finger failed)';
@@ -300,7 +295,7 @@ function loadSTL() {
         group.scale.set(scale, scale, scale);
         
         // Position camera
-        camera.position.z = maxDim;
+        camera.position.z = maxDim * 0.7 ;
         
         loadingEl.style.display = 'none';
         statusEl.textContent = 'Mesh loaded successfully (combined)';
@@ -393,120 +388,7 @@ async function runOptimization(inputData) {
   }
 }
 
-// async function generateMesh(inputData) {
-//   try {
-//     // Create dummy optimization results
-//     const dummyResults = {
-//       torqueDown: 0.5,
-//       torqueUp: 0.5,
-//       geometryValues: {
-//         beamA: 25.0,
-//         beamB: 15.0,
-//         beamC: 25.0,
-//         theta: 30.0,
-//         hingeThickness: 0.6,
-//         tendonWidth: 1.6,
-//         tendonThickness: 1.2,
-//         hingeLength: 2.0
-//       },
-//       mjcModelFile: "dummy.xml",
-//       torqueCurve: [] // Empty array if needed
-//     };
-    
-//     // Store dummy results
-//     optimizationResults = dummyResults;
-    
-//     statusEl.textContent = 'Skipping optimization, generating mesh directly...';
-    
-//     // Call the generate endpoint directly
-//     const response = await fetch('/generate', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       },
-//       body: JSON.stringify({
-//         optimizationResults: dummyResults
-//       })
-//     });
-    
-//     if (!response.ok) {
-//       throw new Error(`HTTP error! Status: ${response.status}`);
-//     }
-    
-//     const result = await response.json();
-//     console.log('Mesh generation result:', result);
-    
-//     return result;
-//   } catch (error) {
-//     console.error('Mesh generation error:', error);
-//     loadingEl.style.display = 'none';
-//     statusEl.textContent = 'Error generating mesh. Check console for details.';
-//     throw error;
-//   }
-// }
-
-async function generateMesh(inputData) {
-  try {
-    // Create a more complete dummy results object that includes the user input
-    const dummyResults = {
-      torqueDown: 0.5,
-      torqueUp: 0.5,
-      // Include the dimensions from inputData
-      dimensions: inputData.dimensions,
-      // Include the natural angle
-      naturalAngle: inputData.naturalAngle,
-      // Include forces mapped to the expected properties
-      ptorqueExtend: inputData.forces.external,
-      atorqueBend: inputData.forces.extend,
-      atorqueExtend: inputData.forces.bend,
-      // Include thickness
-      thickness: inputData.thickness,
-      // Basic geometry values
-      geometryValues: {
-        beamA: 25.0,
-        beamB: 15.0,
-        beamC: 25.0,
-        theta: 30.0,
-        hingeThickness: 0.6,
-        tendonWidth: 1.6,
-        tendonThickness: 1.2,
-        hingeLength: 2.0
-      }
-    };
-    
-    // Store dummy results
-    optimizationResults = dummyResults;
-    
-    statusEl.textContent = 'Skipping optimization, generating mesh directly...';
-    
-    // Call the generate endpoint
-    const response = await fetch('/generate', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        optimizationResults: dummyResults
-      })
-    });
-    
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    
-    const result = await response.json();
-    console.log('Mesh generation result:', result);
-    
-    return result;
-  } catch (error) {
-    console.error('Mesh generation error:', error);
-    loadingEl.style.display = 'none';
-    statusEl.textContent = 'Error generating mesh. Check console for details.';
-    throw error;
-  }
-}
-
-// Modified event listener for the generate button
+//event listeners
 generateBtn.addEventListener('click', async function() {
   statusEl.textContent = 'Collecting input data...';
   loadingEl.style.display = 'block';
@@ -519,8 +401,21 @@ generateBtn.addEventListener('click', async function() {
     const inputData = collectInputData();
     console.log('Collected input data:', inputData);
     
-    // Skip optimization and go straight to mesh generation
-    await generateMesh(inputData);
+    // Run optimization with input data
+    statusEl.textContent = 'Running optimization...';
+    const results = await runOptimization(inputData);
+    
+    // Generate the mesh with the optimization results
+    statusEl.textContent = 'Optimization complete, generating mesh...';
+    await fetch('/generate', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        optimizationResults: results
+      })
+    });
     
     // Load the STL mesh
     statusEl.textContent = 'Mesh generated, now loading...';
@@ -531,46 +426,6 @@ generateBtn.addEventListener('click', async function() {
     statusEl.textContent = 'Error in process. Check console for details.';
   }
 });
-
-
-// //event listeners
-// generateBtn.addEventListener('click', async function() {
-//   statusEl.textContent = 'Collecting input data...';
-//   loadingEl.style.display = 'block';
-  
-//   try {
-//     // Initialize the 3D scene if not already
-//     initScene();
-    
-//     // Collect all input data
-//     const inputData = collectInputData();
-//     console.log('Collected input data:', inputData);
-    
-//     // Run optimization with input data
-//     statusEl.textContent = 'Running optimization...';
-//     const results = await runOptimization(inputData);
-    
-//     // Generate the mesh with the optimization results
-//     statusEl.textContent = 'Optimization complete, generating mesh...';
-//     await fetch('/generate', {
-//       method: 'POST',
-//       headers: {
-//         'Content-Type': 'application/json'
-//       },
-//       body: JSON.stringify({
-//         optimizationResults: results
-//       })
-//     });
-    
-//     // Load the STL mesh
-//     statusEl.textContent = 'Mesh generated, now loading...';
-//     loadSTL();
-//   } catch (error) {
-//     console.error('Error in generate process:', error);
-//     loadingEl.style.display = 'none';
-//     statusEl.textContent = 'Error in process. Check console for details.';
-//   }
-// });
 
 downloadBtn.addEventListener('click', function() {
   if (!optimizationResults) {

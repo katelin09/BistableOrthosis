@@ -14,7 +14,7 @@ body {
 
 .left-column {
   width: 40%;
-  padding: 10px 5px; /* Reduced right padding to 5px */
+  padding: 10px 5px; 
   border-right: 1px solid #ccc;
   overflow-y: auto;
   max-height: 100vh;
@@ -32,10 +32,9 @@ body {
   margin-bottom: 5px;
   display: flex;
   align-items: flex-start;
-  padding-right: 0; /* Remove right padding */
+  padding-right: 0; 
 }
 
-/* Section title style - slightly increased left margin */
 h2 {
   margin-top: 0;
   margin-bottom: 5px;
@@ -45,10 +44,9 @@ h2 {
 }
 
 
-/* Make diagrams much wider */
 .parameter-image {
-  width: 38%; /* Increased from previous value */
-  margin-right: 5px; /* Reduced right margin */
+  width: 38%; 
+  margin-right: 5px; 
   margin-top: 0;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -56,11 +54,10 @@ h2 {
 }
 
 
-/* Make input tables much smaller */
 .input-container {
-  width: 40%; /* Decreased from previous value */
+  width: 40%; 
   flex-shrink: 0;
-  margin-right: 0px; /* No right margin */
+  margin-right: 0px; 
   margin-left: 40px;
 }
 
@@ -72,14 +69,14 @@ table {
 }
 
 td {
-  padding: 0px 2px; /* Reduced padding */
+  padding: 0px 2px; 
   text-align: center;
   border: 1px solid #ddd;
   font-size: 13px;
 }
 
 input[type="text"], input[type="number"] {
-  width: 95%; /* Increased to fill the smaller cells */
+  width: 95%; 
   padding: 1px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -182,12 +179,11 @@ input[type="text"], input[type="number"] {
   margin-right: 8px;
 }
 
-/* Fix alignment for dimensions section */
 .parameter-section:nth-of-type(2) {
-  align-items: center; /* Center align items vertically */
+  align-items: center; 
 }
 
-/* Alternative approach if the above doesn't work */
+
 .parameter-section:nth-of-type(2) .parameter-image {
-  align-self: center; /* Center just the image */
+  align-self: center; 
 }

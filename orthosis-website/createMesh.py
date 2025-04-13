@@ -293,37 +293,6 @@ def scene_setup():
 ################################################################
 
 
-params = {
-    "DIP_radius": 8.0,
-    "PIP_radius": 9.0,
-    "MCP_radius": 8.5,
-    "TIP_radius": 5.0,
-    "D2P_length": 20.0,
-    "P2M_length": 18.0,
-    "TIP_length": 18.0,
-    "A_length": 25.0,
-    "C_length": 25.0,
-    "theta_angle": 30.0,
-    "initial_angle": 2.0,
-    "D_length": 0.0,
-    "beta_angle": 0.0,
-    "B_length": 15.0,
-    "L_length": 0.0,
-    "gamma_angle": 0.0,
-    "H1_length": 2.0,
-    "H2_length": 2.0,
-    "H3_length": 2.0,
-    "H1_thickness": 0.6,
-    "H2_thickness": 0.6,
-    "H3_thickness": 0.6,
-    "L_thickness": 1.2,
-    "L_width": 1.6,
-    "L_offset": 0.8,
-    "Rigid_thickness": 2.0,
-    "Attach_thickness": 1.0,
-    "resolution": 64
-}
-
 def updateParams():
     params["H2_length"] = params["H1_length"]
     params["H3_length"] = params["H1_length"]
@@ -331,6 +300,8 @@ def updateParams():
     params["H3_thickness"] = params["H1_thickness"]
 
     params["B_length"] = params["P2M_length"]
+    
+    params["TIP_radius"] = 0.8 * params["DIP_radius"]
 
     params["D_length"] = math.sqrt(params["B_length"]**2 + params["C_length"]**2 - 
                                 2*params["B_length"]*params["C_length"]*
@@ -392,8 +363,73 @@ def create_hemisphere(radius, segments, position, bmesh_obj, orientation=(0,0,0)
     
     return {'verts': verts}
 
+def create_improved_tip(bm, radius, tip_y_position, segments):
+
+    tip_verts = [v for v in bm.verts if abs(v.co.y - tip_y_position) < 1e-4]
+    if not tip_verts or len(tip_verts) != segments:
+        print(f"Warning: Expected {segments} tip vertices, found {len(tip_verts)}")
+        return
+
+
+    def angle(v):
+        return math.atan2(v.co.z, v.co.x)
+    tip_verts.sort(key=angle)
+
+    # How many intermediate rings to generate? (Adjust this value for more or less smoothness.)
+    N_rings = 3  
+    ring_vert_lists = []  # will store lists of vertices for each intermediate ring
+
+
+    for i in range(1, N_rings+1):
+        t = i / (N_rings + 1)   # a fraction between 0 and 1 (but not including endpoints)
+        alpha = t * (math.pi / 2)  # map t to an angle from 0 (base) to pi/2 (apex)
+        current_ring = []
+        for base_v in tip_verts:
+            theta = math.atan2(base_v.co.z, base_v.co.x)  # determine the angle of the base vertex in the XZ plane
+            new_x = radius * math.cos(alpha) * math.cos(theta)
+            new_z = radius * math.cos(alpha) * math.sin(theta)
+            new_y = tip_y_position - radius * math.sin(alpha)
+            new_v = bm.verts.new((new_x, new_y, new_z))
+            current_ring.append(new_v)
+        ring_vert_lists.append(current_ring)
+
+    # Create the apex vertex for the dome
+    apex = bm.verts.new((0, tip_y_position - radius, 0))
+
+    # connectionss
+
+    for i in range(segments):
+        v1 = tip_verts[i]
+        v2 = tip_verts[(i + 1) % segments]
+        v3 = ring_vert_lists[0][(i + 1) % segments]
+        v4 = ring_vert_lists[0][i]
+        bm.faces.new((v1, v2, v3, v4))
+
+    for ring_idx in range(len(ring_vert_lists) - 1):
+        curr_ring = ring_vert_lists[ring_idx]
+        next_ring = ring_vert_lists[ring_idx + 1]
+        for i in range(segments):
+            v1 = curr_ring[i]
+            v2 = curr_ring[(i + 1) % segments]
+            v3 = next_ring[(i + 1) % segments]
+            v4 = next_ring[i]
+            bm.faces.new((v1, v2, v3, v4))
+
+    last_ring = ring_vert_lists[-1]
+    for i in range(segments):
+        v1 = last_ring[i]
+        v2 = last_ring[(i + 1) % segments]
+        bm.faces.new((v1, v2, apex))
+
+    for face in bm.faces:
+        face.smooth = True
+
+    return apex
+
+
 
 def create_finger():
+    
     # Create a new mesh and bmesh
     mesh = bpy.data.meshes.new("finger_mesh")
     bmFinger = bmesh.new()
@@ -402,29 +438,38 @@ def create_finger():
     rot_matrix = mathutils.Matrix.Rotation(math.radians(90), 4, 'X')
 
     # Create circles in bmesh
-    TIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix = rot_matrix, segments=32, radius=params["TIP_radius"])
+    TIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix=rot_matrix, segments=32, radius=params["TIP_radius"])
     for v in TIPcircle['verts']:
         v.co.y = -(params["TIP_length"] + params["D2P_length"])
-    DIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix = rot_matrix, segments=32, radius=params["DIP_radius"])
+    
+    DIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix=rot_matrix, segments=32, radius=params["DIP_radius"])
     for v in DIPcircle['verts']:
         v.co.y = -params["D2P_length"]
-    PIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix = rot_matrix, segments=32, radius=params["PIP_radius"])
-    MCPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix = rot_matrix, segments=32, radius=params["MCP_radius"])
+    
+    PIPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix=rot_matrix, segments=32, radius=params["PIP_radius"])
+    
+    MCPcircle = bmesh.ops.create_circle(bmFinger, cap_ends=False, matrix=rot_matrix, segments=32, radius=params["MCP_radius"])
     for v in MCPcircle['verts']:
         v.co.y = params["P2M_length"]
 
-    # Bridge between circles
-    bmesh.ops.bridge_loops(bmFinger, edges=[e for e in bmFinger.edges])
 
-    # Create hemispheres at tip
-    tip_pos = (0, -(params["TIP_length"] + params["D2P_length"]), 0)
-    create_hemisphere(params["TIP_radius"], 32, tip_pos, bmFinger, orientation=(math.pi, 0, 0))
+    TIP_edges = [e for e in bmFinger.edges if any(v in TIPcircle['verts'] for v in e.verts)]
+    DIP_edges = [e for e in bmFinger.edges if any(v in DIPcircle['verts'] for v in e.verts)]
+    PIP_edges = [e for e in bmFinger.edges if (e not in TIP_edges and e not in DIP_edges and 
+                                              not any(v in MCPcircle['verts'] for v in e.verts))]
+    MCP_edges = [e for e in bmFinger.edges if any(v in MCPcircle['verts'] for v in e.verts)]
+
+
+    bmesh.ops.bridge_loops(bmFinger, edges=TIP_edges + DIP_edges)
+    bmesh.ops.bridge_loops(bmFinger, edges=DIP_edges + PIP_edges)
+    bmesh.ops.bridge_loops(bmFinger, edges=PIP_edges + MCP_edges)
+
+
+    create_improved_tip(bmFinger, params["TIP_radius"], -(params["TIP_length"] + params["D2P_length"]), 32)
     
     # Fill any remaining holes
     bmesh.ops.holes_fill(bmFinger, edges=[e for e in bmFinger.edges if len(e.link_faces) < 2])
-    # Add smoothing
-    # for face in bmFinger.faces: face.smooth = True
-
+    
     # Create mesh from bmesh
     bmFinger.to_mesh(mesh)
     bmFinger.free()
@@ -598,7 +643,7 @@ def create_hinge1():
     return obj
 
 
-def create_hinge2():
+def create_hinge2(radius_at_lengthA):
     mesh = bpy.data.meshes.new("hinge2_mesh")
     bm = bmesh.new()
     
@@ -607,7 +652,7 @@ def create_hinge2():
         v.co.x *= params["Rigid_thickness"]
         v.co.y *= params["H2_length"]
         v.co.z *= params["H2_thickness"]
-        v.co.x += params["DIP_radius"] + params["Rigid_thickness"]/2
+        v.co.x += radius_at_lengthA + params["Rigid_thickness"]/2
         v.co.y += -params["A_length"] - params["H2_length"]/2
         v.co.z += params["H2_thickness"]/2
         
@@ -650,17 +695,17 @@ def create_hinge3():
     return obj
 
 
-def create_blockA():
+def create_blockA(radius_at_lengthA):
     mesh = bpy.data.meshes.new("blockA_mesh")
     bm = bmesh.new()
     
-    x_length = max(params["DIP_radius"], params["PIP_radius"], params["MCP_radius"]) + params["Rigid_thickness"] + params["L_offset"] + params["L_width"] - params["DIP_radius"]
+    x_length = max(params["DIP_radius"], params["PIP_radius"], params["MCP_radius"]) + params["Rigid_thickness"] + params["L_offset"] + params["L_width"] - radius_at_lengthA
     bmesh.ops.create_cube(bm, size=1.0)
     for v in bm.verts:
         v.co.x *= x_length
         v.co.y *= params["Rigid_thickness"]
         v.co.z *= params["Rigid_thickness"] * 2
-        v.co.x += params["DIP_radius"] + x_length/2
+        v.co.x += radius_at_lengthA + x_length/2
         v.co.y += -params["A_length"] - params["H2_length"] - params["Rigid_thickness"] / 2
         v.co.z += params["Rigid_thickness"]
         
@@ -790,11 +835,11 @@ def create_brace():
     objA = create_beamA(radius_at_negH1, radius_at_lengthA)
     objB = create_beamB(radius_at_posH1, radius_at_lengthB)
     objH1 = create_hinge1()
-    objH2 = create_hinge2()
+    objH2 = create_hinge2(radius_at_lengthA) #lower square piece
     objH3 = create_hinge3()
-    objBlockA = create_blockA()
+    objBlockA = create_blockA(radius_at_lengthA) #lower rectangular piece
     objBlockB = create_blockB()
-    objL = create_beamL()
+    objL = create_beamL() #long beams
     
     objects_list = [objA, objB, objH1, objH2, objH3, objBlockA, objBlockB, objL]
 
