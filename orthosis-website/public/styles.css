@@ -71,11 +71,11 @@ table {
 td {
   padding: 0px 2px; 
   text-align: center;
-  border: 1px solid #ddd;
+  border: none;
   font-size: 13px;
 }
 
-input[type="text"], input[type="number"] {
+input[type="text"], input[type="number"], input[type="email"] {
   width: 95%; 
   padding: 1px;
   border: 1px solid #ccc;
