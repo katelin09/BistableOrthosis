@@ -11,7 +11,7 @@ This section guides end users on running the orthosis web interface locally to v
 Copy the repository URL from the Code button and run in a terminal (VS Code terminal or your system terminal):
 
 ```python
-git clone https://github.com/yourusername/ModelSimulation.git
+git clone https://github.com/[yourusername]/ModelSimulation.git
 cd ModelSimulation/orthosis-website
 ```
 
