@@ -606,10 +606,12 @@ def create_beamB(radius_at_posH1, radius_at_lengthB):
     
     verts_below = [v for v in beamB_mesh.verts if v.co.z < 0]
     bmesh.ops.delete(beamB_mesh, geom=verts_below, context='VERTS')
-
+    
     # Fill any remaining holes
     bmesh.ops.holes_fill(beamB_mesh, edges=[e for e in beamB_mesh.edges if len(e.link_faces) < 2])
 
+    # Recalculate normals to ensure consistent face orientation
+    bmesh.ops.recalc_face_normals(beamB_mesh, faces=beamB_mesh.faces)
     # # Apply initial angle rotation to all vertices
     # rot_initial = mathutils.Matrix.Rotation(math.radians(params["initial_angle"]), 4, 'X')
     # for v in beamB_mesh.verts:
@@ -621,6 +623,7 @@ def create_beamB(radius_at_posH1, radius_at_lengthB):
     bpy.context.collection.objects.link(objB)
     
     return objB
+
 
 
 def create_hinge1():
