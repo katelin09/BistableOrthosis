@@ -1,0 +1,17 @@
+{
+    "timestamp": "20250928_163009",
+    "geometry_vals": {
+        "beamA": 50.0,
+        "beamC": 50.0,
+        "theta": 0.0,
+        "tendonThickness": 1.0,
+        "tendonWidth": 0.7778006680949074,
+        "hingeLength": 2.0,
+        "hingeThickness": 0.4,
+        "beamB": 25,
+        "hingeWidth": 2.0
+    },
+    "torqueDown": 5.474837878374595,
+    "torqueUp": 0.2701494129744197,
+    "model_file": "model_20250928_163009.xml"
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STL Mesh Viewer</title>
+  <title>Bistable Orthosis Customization</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,38 +11,24 @@
     <!-- left col for param inputs -->
     <div class="left-column">
       <!-- user info input section -->
-      <div class="parameter-section">
-        <h2>Full name</h2>
-      </div>
-      
-      <div class="parameter-section">
+      <div class="inline-input-section">
+        <h2>Name</h2>
         <div class="input-container">
-          <table>
-            <tr>
-              <td><input type="text" id="fullName" placeholder="Enter your full name"></td>
-            </tr>
-          </table>
+          <input type="text" id="fullName" placeholder="Enter your name">
         </div>
       </div>
       
       <!-- email input section -->
-      <div class="parameter-section">
+      <div class="inline-input-section">
         <h2>Email</h2>
-      </div>
-      
-      <div class="parameter-section">
         <div class="input-container">
-          <table>
-            <tr>
-              <td><input type="email" id="email" placeholder="Enter your email"></td>
-            </tr>
-          </table>
+          <input type="email" id="email" placeholder="Enter your email">
         </div>
       </div>
       
       <!-- dimensions input section -->
       <div class="parameter-section">
-        <h2>Dimensions</h2>
+        <h2>Finger dimensions</h2>
       </div>
       
       <div class="parameter-section">
@@ -56,9 +42,9 @@
               <td>D3</td>
             </tr>
             <tr>
-              <td><input type="number" id="d1"></td>
-              <td><input type="number" id="d2"></td>
-              <td><input type="number" id="d3"></td>
+              <td><input type="number" id="d1" value="16"></td>
+              <td><input type="number" id="d2" value="19"></td>
+              <td><input type="number" id="d3" value="19"></td>
             </tr>
           </table>
           
@@ -69,9 +55,9 @@
               <td>W3</td>
             </tr>
             <tr>
-              <td><input type="number" id="w1"></td>
-              <td><input type="number" id="w2"></td>
-              <td><input type="number" id="w3"></td>
+              <td><input type="number" id="w1" value="17"></td>
+              <td><input type="number" id="w2" value="20"></td>
+              <td><input type="number" id="w3" value="19"></td>
             </tr>
           </table>
           
@@ -82,9 +68,9 @@
               <td>L3</td>
             </tr>
             <tr>
-              <td><input type="number" id="l1"></td>
-              <td><input type="number" id="l2"></td>
-              <td><input type="number" id="l3"></td>
+              <td><input type="number" id="l1" value="28"></td>
+              <td><input type="number" id="l2" value="24"></td>
+              <td><input type="number" id="l3" value="22"></td>
             </tr>
           </table>
           
@@ -94,7 +80,7 @@
       
       <!-- natural angle input section -->
       <div class="parameter-section">
-        <h2>Extension angle</h2>
+        <h2>Switching angle</h2>
       </div>
       
       <div class="parameter-section">
@@ -103,10 +89,10 @@
         <div class="input-container">
           <table>
             <tr>
-              <td>θ</td>
+              <td>θ<sub>finger</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="angle"></td>
+              <td><input type="number" id="angle" value="30"></td>
             </tr>
           </table>
           
@@ -116,7 +102,7 @@
       
       <!-- forces input section -->
       <div class="parameter-section">
-        <h2>Forces</h2>
+        <h2>Finger strengths</h2>
       </div>
       
       <div class="parameter-section">
@@ -128,7 +114,7 @@
               <td>F<sub>ext,p</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="f_external"></td>
+              <td><input type="number" id="f_external" value="1"></td>
             </tr>
           </table>
           
@@ -137,7 +123,7 @@
               <td>F<sub>ext,a</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="f_extend"></td>
+              <td><input type="number" id="f_extend" value="4.2"></td>
             </tr>
           </table>
           
@@ -146,7 +132,7 @@
               <td>F<sub>bend,a</sub></td>
             </tr>
             <tr>
-              <td><input type="number" id="f_bend"></td>
+              <td><input type="number" id="f_bend" value="5"></td>
             </tr>
           </table>
           
@@ -165,11 +151,11 @@
         <div class="input-container">
           <div class="radio-options">
             <label>
-              <input type="radio" name="thickness" id="thickness-soft" value="soft" checked>
+              <input type="radio" name="thickness" id="thickness-soft" value="soft">
               Soft
             </label>
             <label>
-              <input type="radio" name="thickness" id="thickness-medium" value="medium">
+              <input type="radio" name="thickness" id="thickness-medium" value="medium" checked>
               Medium
             </label>
             <label>
@@ -187,7 +173,7 @@
     <!-- right column (3d viewing, generation button, download button) -->
     <div class="right-column">
       <div id="viewer">
-        <div id="loading">Loading mesh...</div>
+        <div id="loading">Loading mesh...<span id="countdown">20</span>s</div>
 
         <div class="generate-button">
           <button id="generateBtn">Generate</button>
@@ -203,6 +189,46 @@
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/TrackballControls.js"></script>
 
+  <script>
+    // Countdown timer functionality
+    let countdownInterval;
+    
+    function startCountdown() {
+      const loadingDiv = document.getElementById('loading');
+      const countdownSpan = document.getElementById('countdown');
+      let seconds = 20;
+      
+      // Show loading div
+      loadingDiv.style.display = 'block';
+      
+      countdownInterval = setInterval(() => {
+        seconds--;
+        countdownSpan.textContent = seconds;
+        
+        if (seconds <= 0) {
+          clearInterval(countdownInterval);
+          loadingDiv.style.display = 'none';
+        }
+      }, 1000);
+    }
+    
+    function stopCountdown() {
+      if (countdownInterval) {
+        clearInterval(countdownInterval);
+        countdownInterval = null;
+      }
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('countdown').textContent = '20'; // Reset countdown
+    }
+    
+    // Example: Start countdown when Generate button is clicked
+    document.getElementById('generateBtn').addEventListener('click', () => {
+      startCountdown();
+      
+      // Example: Stop countdown after mesh is loaded (replace with actual mesh loading logic)
+      // setTimeout(stopCountdown, 8000); // This would stop after 8 seconds for demo
+    });
+  </script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,102 @@
+<mujoco model="finger with orthotic">
+    <option timestep="0.001" iterations="100" solver="Newton" tolerance="1e-8" integrator="implicitfast">
+        <flag gravity="disable" contact="disable" energy="enable" />
+    </option>
+
+    <compiler angle="degree" />
+
+    <visual>
+        <rgba haze=".3 .3 .3 1" />
+        <global offwidth="1920" offheight="1080" />
+    </visual>
+
+    <default>
+        <joint type="hinge" pos="0 0 0" axis="0 0 1" stiffness="0.22194759146666668" damping="0.010179691733333333" />
+        <site size="0.06" rgba="1 1 1 .1" />
+        <geom type="capsule" size="0.01" rgba=".1 .1 .1 1" />
+        <tendon width="0.01" rgba="0.141 0.345 0.437 1" />
+    </default>
+
+    <asset>
+        <texture type="skybox" builtin="gradient" rgb1="1 1 1" rgb2="1 1 1" width="512" height="512" />
+        <texture name="texplane" type="2d" builtin="checker" rgb1="1 1 1" rgb2="1 1 1" width="512" height="512" mark="cross" markrgb="1 1 1" />
+        <material name="matplane" reflectance="0.3" texture="texplane" texrepeat="1 1" texuniform="true" />
+    </asset>
+
+    <worldbody>
+        <light directional="true" diffuse=".8 .8 .8" specular=".2 .2 .2" pos="0 0 -5" dir="0 0 1" />
+        <camera name="cam" pos="0 0 -2.8" xyaxes="1.000 0 0 0 -1.000 0" />
+
+        <body name="finger" pos="0 0 0">
+            <geom name="finger1" type="capsule" size="0.08" fromto="0 0 0  -.25 0 0" rgba="0.8 0.8 0.8 1" />
+            <site name="sPIPL" pos="-.1 0 0" />
+
+            <body pos="0 0 0">
+                <geom name="finger2" type="capsule" size="0.07" fromto="0 0 0  .25 0 0" rgba="0.8 0.8 0.8 1" />
+                <joint name="PIP" pos="0 0 0" stiffness="0" damping="0" />
+                <site name="sPIPR" pos=".1 0 0" />
+                
+                <body pos=".25 0 0">
+                    <geom name="finger3" type="capsule" size="0.06" fromto="0 0 0  .25 0 0" rgba="0.8 0.8 0.8 1" />
+                </body>
+            </body>
+        </body>
+
+        <body name="orthosis" pos="0 0 -.1">
+            <geom name="beamB" type="capsule" size="0.04" fromto="0.0 0.0 0.0 -0.25 -3.061616997868383e-17 0.0" />
+            <site name="hBAL" pos="-.1 0 0" size="0.06" />
+            
+            <body name="Bnext" pos="0 0 0">
+                <joint name="hingeBA" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="0.22194759146666668" damping="0.010179691733333333" />        
+                <site name="hBAR" pos=".1 0 0" size="0.06" />
+                <geom name="beamA" type="capsule" size="0.04" fromto="0.0 0.0 0.0 0.4420893045799392 0.0 0.0" />
+                
+                <body name="Anext" pos="0.4420893045799392 0.0 0.0">
+                    <joint name="hingeAL" type="hinge" pos="0 0 0" axis="0 0 1" stiffness="0.22194759146666668" damping="0.010179691733333333" />      
+                    <geom name="smallBodyAL" type="sphere" size="0.04" pos="0 0 0" />
+                    <site name="hAL" pos="0 0 0" size="0.06" />
+                </body>     
+            </body>
+            
+            <geom name="beamD" type="capsule" size="0.04" fromto="-0.25 -3.061616997868383e-17 0.0 -0.38286056850762346 -0.2210446522899697 0.0" />
+            <body name="Dnext" pos="-0.38286056850762346 -0.2210446522899697 0.0">
+                <joint name="hingeDL" type="hinge" pos="0 0 0" axis="0 0 -1" stiffness="0.22194759146666668" damping="0.010179691733333333" />
+                <geom name="smallBodyDL" type="sphere" size="0.04" pos="0 0 0" />
+                <site name="hDL" pos="0 0 0" size="0.06" />
+            </body> 
+        </body>
+    </worldbody>
+
+    <equality>
+        
+        <weld site1="hBAR" site2="sPIPR" />  
+        
+    </equality>
+
+    
+    
+    <tendon>
+        <spatial name="bendingTendon" limited="true" range="0.7686458582758872 1.7081019072797492" width="0.02" solimplimit="0 0.01 0.001 0.5 1" solreflimit="-0.1368109679740909 -0.0004666635813332563">
+            <site site="hDL" />
+            <site site="hAL" />
+        </spatial>
+        <spatial name="extensionTendon" limited="true" range="0 0.8540509536398746" width="0.02" solimplimit="0 0.01 0.001 0.5 1" solreflimit="-1838.2511035307634 -232.47793583486967">    
+            <site site="hDL" />
+            <site site="hAL" />
+        </spatial>
+    </tendon>
+
+    <actuator>
+        <motor name="finger_bend" joint="PIP" ctrlrange="-10 10" gear="100" />
+        <motor name="flexure_motor_BA" joint="hingeBA" gear="1" ctrlrange="0 0" />
+        <motor name="flexure_motor_AL" joint="hingeAL" gear="1" ctrlrange="0 0" />
+        <motor name="flexure_motor_DL" joint="hingeDL" gear="1" ctrlrange="0 0" />
+        <motor name="tendon_nonlinear" tendon="bendingTendon" gear="1" ctrlrange="0 0" />
+    </actuator>
+
+    <sensor>
+        <force name="finger_force" site="sPIPR" />
+        <torque name="finger_torque" site="sPIPR" />
+        <force name="tendon_force" site="hDL" />
+    </sensor>
+</mujoco>

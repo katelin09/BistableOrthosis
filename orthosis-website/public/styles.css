@@ -1,9 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f0f0f0;
   color: #333;
+  font-size: 18px; /* Increased base font size */
 }
 
 .container {
@@ -38,11 +39,74 @@ body {
 h2 {
   margin-top: 0;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 15px;
   text-align: left;
 }
 
+/* Inline input styling for Name and Email */
+.inline-input-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.inline-input-section h2 {
+  margin: 0;
+  margin-right: 15px;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.inline-input-section .input-container {
+  margin-left: 15px;
+  margin-right: 15px;
+  width: auto;
+  flex: 1;
+}
+
+.inline-input-section input {
+  min-width: 80px;
+}
+
+/* Alternative approach using specific selectors for Name and Email */
+.parameter-section:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.parameter-section:nth-child(1) h2 {
+  margin-left: 15px;
+  margin-bottom: 0;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.parameter-section:nth-child(2) {
+  margin-top: -10px;
+}
+
+.parameter-section:nth-child(3) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.parameter-section:nth-child(3) h2 {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 0;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.parameter-section:nth-child(4) {
+  margin-top: -10px;
+}
 
 .parameter-image {
   width: 38%; 
@@ -52,7 +116,6 @@ h2 {
   margin-left: 20px;
   height: 5%
 }
-
 
 .input-container {
   width: 40%; 
@@ -69,22 +132,51 @@ table {
 }
 
 td {
-  padding: 0px 2px; 
+  padding: 2px 4px; /* Increased padding */
   text-align: center;
   border: none;
-  font-size: 13px;
+  font-size: 16px; /* Increased from 13px */
 }
 
 input[type="text"], input[type="number"], input[type="email"] {
   width: 95%; 
-  padding: 1px;
+  padding: 8px; /* Increased from 1px */
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 16px; /* Added explicit font size */
+  min-height: 20px; /* Added minimum height */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Styling for labels to align with input boxes */
+label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-size: 16px;
+  min-width: 60px;
+}
+
+/* Container for name and email inputs to align them properly */
+.inline-input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.inline-input-group label {
+  min-width: 60px;
+  margin-right: 10px;
+}
+
+.inline-input-group input {
+  flex: 1;
 }
 
 .unit-label {
   color: #666;
-  font-size: 11px;
+  font-size: 14px; /* Increased from 11px */
   margin-top: 4px;
   text-align: right;
 }
@@ -106,9 +198,9 @@ input[type="text"], input[type="number"], input[type="email"] {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #333;
-  font-size: 18px;
+  font-size: 20px; /* Increased from 18px */
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 15px 25px;
+  padding: 20px 30px; /* Increased padding */
   border-radius: 5px;
   display: none;
 }
@@ -128,7 +220,7 @@ input[type="text"], input[type="number"], input[type="email"] {
   background-color: #000000;
   color: white;
   border: none;
-  font-size: 16px;
+  font-size: 18px; /* Increased from 16px */
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -143,8 +235,8 @@ input[type="text"], input[type="number"], input[type="email"] {
   background-color: #000000;
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 12px 24px; /* Increased padding */
+  font-size: 18px; /* Increased from 16px */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -159,12 +251,13 @@ input[type="text"], input[type="number"], input[type="email"] {
   height: 20px;
   margin-top: 10px;
   color: #666;
+  font-size: 16px; /* Added explicit font size */
 }
 
 .radio-options {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px; /* Increased from 8px */
   margin-bottom: 8px;
   padding-left: 15px;
 }
@@ -173,16 +266,17 @@ input[type="text"], input[type="number"], input[type="email"] {
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-size: 16px; /* Added explicit font size */
 }
 
 .radio-options input[type="radio"] {
-  margin-right: 8px;
+  margin-right: 10px; /* Increased from 8px */
+  transform: scale(1.2); /* Make radio buttons larger */
 }
 
 .parameter-section:nth-of-type(2) {
   align-items: center; 
 }
-
 
 .parameter-section:nth-of-type(2) .parameter-image {
   align-self: center; 

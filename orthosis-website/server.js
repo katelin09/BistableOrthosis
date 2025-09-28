@@ -43,7 +43,7 @@ app.post('/optimize', (req, res) => {
   const paramsFile = path.join(__dirname, 'optimizer_params.json');
   fs.writeFileSync(paramsFile, JSON.stringify(optimizerParams, null, 2));
   
-  const cmd = `python ${path.join(__dirname, 'run_optimizer.py')} --params ${paramsFile}`;
+  const cmd = `python3 ${path.join(__dirname, 'run_optimizer.py')} --params ${paramsFile}`;
   
   exec(cmd, (error, stdout, stderr) => {
     try {
@@ -172,6 +172,53 @@ app.post('/generate', (req, res) => {
   } catch (error) {
     console.error('Error preparing mesh generation:', error);
     return res.status(500).json({ error: 'Error preparing mesh generation' });
+  }
+});
+
+// NEW: Endpoint to save file to specific folder with custom filename
+app.post('/download-to-folder', (req, res) => {
+  try {
+    const { filename, targetFolder } = req.body;
+    
+    console.log('Download request received:', { filename, targetFolder }); // DEBUG
+    
+    // Ensure the target folder exists
+    if (!fs.existsSync(targetFolder)) {
+      console.log('Creating target folder:', targetFolder); // DEBUG
+      fs.mkdirSync(targetFolder, { recursive: true });
+    }
+    
+    // Construct the full path
+    const fullPath = path.join(targetFolder, filename);
+    
+    // Use the brace.stl file (your generated STL file)
+    const sourceFile = path.join(__dirname, 'brace.stl');
+    
+    console.log('Source file:', sourceFile); // DEBUG
+    console.log('Target path:', fullPath); // DEBUG
+    
+    if (!fs.existsSync(sourceFile)) {
+      console.error('Source file does not exist:', sourceFile); // DEBUG
+      return res.status(404).json({ error: 'Generated mesh file not found' });
+    }
+    
+    // Copy the file to the target location
+    fs.copyFileSync(sourceFile, fullPath);
+    
+    console.log(`File saved to: ${fullPath}`);
+    
+    res.json({ 
+      success: true, 
+      savedPath: fullPath,
+      message: `File successfully saved to ${fullPath}`
+    });
+    
+  } catch (error) {
+    console.error('Error saving file to folder:', error);
+    res.status(500).json({ 
+      error: 'Failed to save file to specified folder',
+      details: error.message 
+    });
   }
 });
 
